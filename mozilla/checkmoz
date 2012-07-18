@@ -1,0 +1,63 @@
+#!/bin/bash
+# a munkakönyvtárban lévő dtd, properties, rdf és html fájlok helyesírás-ellenőrzése
+
+convert_uxxxx()
+{
+sed "\
+s/\\\\u00e1/á/ig;s/\\\\u00c1/Á/ig;\
+s/\\\\u00e9/é/ig;s/\\\\u00c9/É/ig;\
+s/\\\\u00ed/í/ig;s/\\\\u00cd/Í/ig;\
+s/\\\\u00f3/ó/ig;s/\\\\u00d3/Ó/ig;\
+s/\\\\u00f6/ö/ig;s/\\\\u00d6/Ö/ig;\
+s/\\\\u0151/ő/ig;s/\\\\u0150/Ő/ig;\
+s/\\\\u00fa/ú/ig;s/\\\\u00da/Ú/ig;\
+s/\\\\u00fc/ü/ig;s/\\\\u00dc/Ü/ig;\
+s/\\\\u0171/ű/ig;s/\\\\u0170/Ű/ig;\
+s/\\\\u000a/ /g"
+}
+
+distill_dtd()
+# többsoros kommentekre és azonos sorban levő több kommentre is jól működik
+{
+sed 's/<!--.*-->//g'|\
+sed -e :a -e 's/<!--.*-->//g;/<!--/N;//ba'|\
+sed 's/<!ENTITY[ 	]*[^ 	]*[ 	]*\([^>]*\)>/\1/g'
+}
+
+distill_properties()
+{
+sed ':a;/^[ 	]*#.*$/d;ta;s/^[^=]*=[ 	]*\(.*\)$/\1/g;s/\\n/ /g'
+}
+
+distill_rdf()
+{
+grep 'nc:name'|\
+perl -p -e 's/^.*nc:name=["](.*?)["].*$/\1/g'
+}
+
+distill_html()
+{
+sed -e :a -e 's/<[^>]*>//g;/</N;//ba'
+}
+
+for filename in `find . -noleaf -type f`; do
+  echo "$filename"|grep -E "\.dtd$|\.ent$" >/dev/null
+  if [ $? -eq 0 ]; then
+    cat "$filename"|distill_dtd
+  else
+    echo "$filename"|grep -E "\.properties$" >/dev/null
+    if [ $? -eq 0 ]; then
+      cat "$filename"|distill_properties
+    else
+      echo "$filename"|grep -E "\.rdf$" >/dev/null
+      if [ $? -eq 0 ]; then
+        cat "$filename"|distill_rdf
+      else
+        echo "$filename"|grep -E "\.[x]*html$" >/dev/null
+        if [ $? -eq 0 ]; then
+          cat "$filename"|distill_html
+        fi
+      fi
+    fi
+  fi
+done | convert_uxxxx | hunspell -d hu_HU -l | sort | uniq -c >"checkmoz_out_`date +"%Y.%m.%d_%H.%M.%S"`"
