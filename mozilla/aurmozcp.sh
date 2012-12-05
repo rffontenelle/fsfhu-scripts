@@ -1,40 +1,76 @@
 #!/bin/bash
 
-cp -r /home/gabor/src/mozilla/comm-aurora/mail/locales/en-US/* /home/gabor/src/mozilla/new-aurora/mail/ ;
-cp -r /home/gabor/src/mozilla/comm-aurora/other-licenses/branding/thunderbird/locales/en-US/* /home/gabor/src/mozilla/new-aurora/other-licenses/branding/thunderbird/ ;
-cp -r /home/gabor/src/mozilla/comm-aurora/editor/ui/locales/en-US/* /home/gabor/src/mozilla/new-aurora/editor/ui/ ;
-cp -r /home/gabor/src/mozilla/comm-aurora/calendar/locales/en-US/* /home/gabor/src/mozilla/new-aurora/calendar/ ;
-cp -r /home/gabor/src/mozilla/comm-aurora/chat/locales/en-US/* /home/gabor/src/mozilla/new-aurora/chat/ ;
+# Print commands before running them
+set -x
 
-#cp -r /home/gabor/src/mozilla/comm-aurora/mail/branding/nightly/locales/en-US/* /home/gabor/src/mozilla/new-aurora/mail/branding/nightly/
-#cp -r /home/gabor/src/mozilla/comm-aurora/suite/debugQA/locales/en-US/* /home/gabor/src/mozilla/new-aurora/suite/debugQA/
-#cp -r /home/gabor/src/mozilla/comm-aurora/suite/locales/en-US/* /home/gabor/src/mozilla/new-aurora/suite/
+PREFIX=/home/gabor/src/mozilla
+TPREFIX="$PREFIX"/new-aurora
 
-cp -r /home/gabor/src/mozilla/mozilla-aurora/browser/locales/en-US/* /home/gabor/src/mozilla/new-aurora/browser/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/dom/locales/en-US/* /home/gabor/src/mozilla/new-aurora/dom/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/embedding/android/locales/en-US/* /home/gabor/src/mozilla/new-aurora/embedding/android/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/extensions/inspector/resources/locale/en-US/* /home/gabor/src/mozilla/new-aurora/extensions/inspector/resources/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/extensions/reporter/locales/en-US/* /home/gabor/src/mozilla/new-aurora/extensions/reporter/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/netwerk/locales/en-US/* /home/gabor/src/mozilla/new-aurora/netwerk/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/other-licenses/branding/firefox/locales/en-US/* /home/gabor/src/mozilla/new-aurora/other-licenses/branding/firefox/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/security/manager/locales/en-US/* /home/gabor/src/mozilla/new-aurora/security/manager/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/services/sync/locales/en-US/* /home/gabor/src/mozilla/new-aurora/services/sync/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/toolkit/locales/en-US/* /home/gabor/src/mozilla/new-aurora/toolkit/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/mobile/locales/en-US/* /home/gabor/src/mozilla/new-aurora/mobile/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/mobile/xul/locales/en-US/* /home/gabor/src/mozilla/new-aurora/mobile/xul/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/mobile/android/locales/en-US/* /home/gabor/src/mozilla/new-aurora/mobile/android/
-cp -r /home/gabor/src/mozilla/mozilla-aurora/mobile/android/base/locales/en-US/* /home/gabor/src/mozilla/new-aurora/mobile/android/base/
+mkdir -p "$TPREFIX"/mail/ ;
+cp -r "$PREFIX"/comm-aurora/mail/locales/en-US/* "$TPREFIX"/mail/ ;
 
-find /home/gabor/src/mozilla/new-aurora/ -name region.properties | xargs rm
+mkdir -p "$TPREFIX"/other-licenses/branding/thunderbird/ ;
+cp -r "$PREFIX"/comm-aurora/other-licenses/branding/thunderbird/locales/en-US/* "$TPREFIX"/other-licenses/branding/thunderbird/ ;
 
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/browser/branding/unofficial/locales/en-US/* /home/gabor/src/mozilla/new-aurora/browser/branding/unofficial/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/embedding/browser/chrome/locale/en-US/* /home/gabor/src/mozilla/new-aurora/embedding/browser/chrome/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/extensions/metrics/locale/en-US/* /home/gabor/src/mozilla/new-aurora/extensions/metrics/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/extensions/pref/autoconfig/resources/locale/en-US/* /home/gabor/src/mozilla/new-aurora/extensions/pref/autoconfig/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/extensions/spellcheck/locales/en-US/* /home/gabor/src/mozilla/new-aurora/extensions/spellcheck/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/layout/forms/resources/locale/en-US/* /home/gabor/src/mozilla/new-aurora/layout/forms/resources/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/extensions/layout-debug/ui/locale/en-US/* /home/gabor/src/mozilla/new-aurora/extensions/layout-debug/ui/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/xpfe/communicator/resources/locale/en-US/* /home/gabor/src/mozilla/new-aurora/xpfe/communicator/resources/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/xpfe/components/download-manager/resources/locale/en-US/* /home/gabor/src/mozilla/new-aurora/xpfe/components/download-manager/resources/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/xpfe/components/winhooks/locale/en-US/* /home/gabor/src/mozilla/new-aurora/xpfe/components/winhooks/
-#cp -r /home/gabor/src/mozilla/mozilla-aurora/xpfe/global/resources/locale/en-US/* /home/gabor/src/mozilla/new-aurora/xpfe/global/resources/
+mkdir -p "$TPREFIX"/editor/ui/ ;
+cp -r "$PREFIX"/comm-aurora/editor/ui/locales/en-US/* "$TPREFIX"/editor/ui/ ;
+
+mkdir -p "$TPREFIX"/calendar/ ;
+cp -r "$PREFIX"/comm-aurora/calendar/locales/en-US/* "$TPREFIX"/calendar/ ;
+
+mkdir -p "$TPREFIX"/chat/ ;
+cp -r "$PREFIX"/comm-aurora/chat/locales/en-US/* "$TPREFIX"/chat/ ;
+
+#cp -r "$PREFIX"/comm-aurora/mail/branding/nightly/locales/en-US/* "$TPREFIX"/mail/branding/nightly/
+#cp -r "$PREFIX"/comm-aurora/suite/debugQA/locales/en-US/* "$TPREFIX"/suite/debugQA/
+#cp -r "$PREFIX"/comm-aurora/suite/locales/en-US/* "$TPREFIX"/suite/
+
+mkdir -p "$TPREFIX"/browser/ ;
+cp -r "$PREFIX"/mozilla-aurora/browser/locales/en-US/* "$TPREFIX"/browser/
+
+mkdir -p "$TPREFIX"/dom/ ;
+cp -r "$PREFIX"/mozilla-aurora/dom/locales/en-US/* "$TPREFIX"/dom/
+
+mkdir -p "$TPREFIX"/embedding/android/ ;
+cp -r "$PREFIX"/mozilla-aurora/embedding/android/locales/en-US/* "$TPREFIX"/embedding/android/
+#cp -r "$PREFIX"/mozilla-aurora/extensions/inspector/resources/locale/en-US/* "$TPREFIX"/extensions/inspector/resources/
+#cp -r "$PREFIX"/mozilla-aurora/extensions/reporter/locales/en-US/* "$TPREFIX"/extensions/reporter/
+mkdir -p "$TPREFIX"/netwerk/ ;
+cp -r "$PREFIX"/mozilla-aurora/netwerk/locales/en-US/* "$TPREFIX"/netwerk/
+#cp -r "$PREFIX"/mozilla-aurora/other-licenses/branding/firefox/locales/en-US/* "$TPREFIX"/other-licenses/branding/firefox/
+
+mkdir -p "$TPREFIX"/security/manager/ ;
+cp -r "$PREFIX"/mozilla-aurora/security/manager/locales/en-US/* "$TPREFIX"/security/manager/
+
+mkdir -p "$TPREFIX"/services/sync/ ;
+cp -r "$PREFIX"/mozilla-aurora/services/sync/locales/en-US/* "$TPREFIX"/services/sync/
+
+mkdir -p "$TPREFIX"/toolkit/ ;
+cp -r "$PREFIX"/mozilla-aurora/toolkit/locales/en-US/* "$TPREFIX"/toolkit/
+
+mkdir -p "$TPREFIX"/mobile/xul/ ;
+cp -r "$PREFIX"/mozilla-aurora/mobile/xul/locales/en-US/* "$TPREFIX"/mobile/xul/
+cp -r "$PREFIX"/mozilla-aurora/mobile/locales/en-US/* "$TPREFIX"/mobile/
+
+mkdir -p "$TPREFIX"/mobile/android/base/ ;
+cp -r "$PREFIX"/mozilla-aurora/mobile/android/base/locales/en-US/* "$TPREFIX"/mobile/android/base/
+cp -r "$PREFIX"/mozilla-aurora/mobile/android/locales/en-US/* "$TPREFIX"/mobile/android/
+
+# We should not touch these files
+find "$TPREFIX"/ -name region.properties | xargs rm
+
+# Prepare for translation
+cd "$TPREFIX"/;
+moz.sh -p
+
+#cp -r "$PREFIX"/mozilla-aurora/browser/branding/unofficial/locales/en-US/* "$TPREFIX"/browser/branding/unofficial/
+#cp -r "$PREFIX"/mozilla-aurora/embedding/browser/chrome/locale/en-US/* "$TPREFIX"/embedding/browser/chrome/
+#cp -r "$PREFIX"/mozilla-aurora/extensions/metrics/locale/en-US/* "$TPREFIX"/extensions/metrics/
+#cp -r "$PREFIX"/mozilla-aurora/extensions/pref/autoconfig/resources/locale/en-US/* "$TPREFIX"/extensions/pref/autoconfig/
+#cp -r "$PREFIX"/mozilla-aurora/extensions/spellcheck/locales/en-US/* "$TPREFIX"/extensions/spellcheck/
+#cp -r "$PREFIX"/mozilla-aurora/layout/forms/resources/locale/en-US/* "$TPREFIX"/layout/forms/resources/
+#cp -r "$PREFIX"/mozilla-aurora/extensions/layout-debug/ui/locale/en-US/* "$TPREFIX"/extensions/layout-debug/ui/
+#cp -r "$PREFIX"/mozilla-aurora/xpfe/communicator/resources/locale/en-US/* "$TPREFIX"/xpfe/communicator/resources/
+#cp -r "$PREFIX"/mozilla-aurora/xpfe/components/download-manager/resources/locale/en-US/* "$TPREFIX"/xpfe/components/download-manager/resources/
+#cp -r "$PREFIX"/mozilla-aurora/xpfe/components/winhooks/locale/en-US/* "$TPREFIX"/xpfe/components/winhooks/
+#cp -r "$PREFIX"/mozilla-aurora/xpfe/global/resources/locale/en-US/* "$TPREFIX"/xpfe/global/resources/
