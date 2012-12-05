@@ -7,7 +7,7 @@ Lásd:
 https://developer.mozilla.org/en-US/docs/Localizing_with_Mercurial
 
 Mindet másold át a ~/bin-be, aztán:
-<ide jön némi workflow leírás, később>
+(ide jön némi workflow leírás, később)
 
 * aurmozcp.sh: ez a szkript másolja át a hg tárolókból a honosítandó fájlokat
 Az elején módosítani kell a könyvtár elérési útját!
