@@ -1,0 +1,3543 @@
+[main]
+host = https://www.transifex.com
+
+[mozilla-hu.embedding_android_android_strings_dtd]
+file_filter = mozilla-<lang>/embedding/android/android_strings.dtd
+source_file = mozilla-en/embedding/android/android_strings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.security_manager_chrome_pippki_certManager_dtd]
+file_filter = mozilla-<lang>/security/manager/chrome/pippki/certManager.dtd
+source_file = mozilla-en/security/manager/chrome/pippki/certManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.security_manager_chrome_pippki_validation_dtd]
+file_filter = mozilla-<lang>/security/manager/chrome/pippki/validation.dtd
+source_file = mozilla-en/security/manager/chrome/pippki/validation.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.security_manager_chrome_pippki_pippki_dtd]
+file_filter = mozilla-<lang>/security/manager/chrome/pippki/pippki.dtd
+source_file = mozilla-en/security/manager/chrome/pippki/pippki.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.security_manager_chrome_pippki_deviceManager_dtd]
+file_filter = mozilla-<lang>/security/manager/chrome/pippki/deviceManager.dtd
+source_file = mozilla-en/security/manager/chrome/pippki/deviceManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.other-licenses_branding_thunderbird_brand_dtd]
+file_filter = mozilla-<lang>/other-licenses/branding/thunderbird/brand.dtd
+source_file = mozilla-en/other-licenses/branding/thunderbird/brand.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_overrides_settingsChange_dtd]
+file_filter = mozilla-<lang>/mail/chrome/overrides/settingsChange.dtd
+source_file = mozilla-en/mail/chrome/overrides/settingsChange.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_overrides_netError_dtd]
+file_filter = mozilla-<lang>/mail/chrome/overrides/netError.dtd
+source_file = mozilla-en/mail/chrome/overrides/netError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-newsblog_feed-subscriptions_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-newsblog/feed-subscriptions.dtd
+source_file = mozilla-en/mail/chrome/messenger-newsblog/feed-subscriptions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-newsblog_am-newsblog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-newsblog/am-newsblog.dtd
+source_file = mozilla-en/mail/chrome/messenger-newsblog/am-newsblog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-smime_msgReadSecurityInfo_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgReadSecurityInfo.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/msgReadSecurityInfo.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-smime_msgCompSecurityInfo_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgCompSecurityInfo.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSecurityInfo.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-smime_certFetchingStatus_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/certFetchingStatus.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/certFetchingStatus.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-smime_msgCompSMIMEOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-smime_msgReadSMIMEOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-advanced_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-advanced.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-advanced.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_sanitize_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/sanitize.dtd
+source_file = mozilla-en/mail/chrome/messenger/sanitize.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_folderpane_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/folderpane.dtd
+source_file = mozilla-en/mail/chrome/messenger/folderpane.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_imAccountWizard_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/imAccountWizard.dtd
+source_file = mozilla-en/mail/chrome/messenger/imAccountWizard.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_downloadsOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/downloadsOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/downloadsOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_searchTermOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/searchTermOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/searchTermOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_customizeToolbarOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/customizeToolbarOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/customizeToolbarOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_viewZoomOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/viewZoomOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/viewZoomOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_quickFilterBar_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/quickFilterBar.dtd
+source_file = mozilla-en/mail/chrome/messenger/quickFilterBar.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-archiveoptions_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-archiveoptions.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-archiveoptions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_msgFolderPickerOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/msgFolderPickerOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/msgFolderPickerOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_importDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/importDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/importDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_FilterListDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/FilterListDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/FilterListDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-addressing_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-addressing.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-addressing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abContactsPanel_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abContactsPanel.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abContactsPanel.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abMailListDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abMailListDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abMailListDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abNewCardDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abNewCardDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abNewCardDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abResultsPaneOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abResultsPaneOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abResultsPaneOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_pref-directory_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/pref-directory.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/pref-directory.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abCardOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abCardOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abCardOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abMainWindow_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abMainWindow.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abMainWindow.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_abAddressBookNameDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abAddressBookNameDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/abAddressBookNameDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addressbook_pref-directory-add_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/pref-directory-add.dtd
+source_file = mozilla-en/mail/chrome/messenger/addressbook/pref-directory-add.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_aboutSupportMail_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/aboutSupportMail.dtd
+source_file = mozilla-en/mail/chrome/messenger/aboutSupportMail.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_glodaFacetView_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/glodaFacetView.dtd
+source_file = mozilla-en/mail/chrome/messenger/glodaFacetView.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_SearchDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/SearchDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/SearchDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_searchIntegrationMac_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/searchIntegrationMac.dtd
+source_file = mozilla-en/mail/chrome/messenger/searchIntegrationMac.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_configEditorOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/configEditorOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/configEditorOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_renameFolderDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/renameFolderDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/renameFolderDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_junkMailInfo_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/junkMailInfo.dtd
+source_file = mozilla-en/mail/chrome/messenger/junkMailInfo.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_baseMenuOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/baseMenuOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/baseMenuOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Box_auth_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Box/auth.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Box/auth.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Box_settings_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Box/settings.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Box/settings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Box_management_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Box/management.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Box/management.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_UbuntuOne_settings_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/UbuntuOne/settings.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/UbuntuOne/settings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_UbuntuOne_management_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/UbuntuOne/management.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/UbuntuOne/management.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_addAccountDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/addAccountDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/addAccountDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_settings_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/settings.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/settings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_fileExceeds2GB_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/fileExceeds2GB.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/fileExceeds2GB.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_fileExceedsLimit_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsLimit.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsLimit.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_fileExceedsQuota_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsQuota.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsQuota.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_management_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/management.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/management.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_management_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/management.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/management.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-junk_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-junk.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-junk.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_multimessageview_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/multimessageview.dtd
+source_file = mozilla-en/mail/chrome/messenger/multimessageview.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_searchIntegrationWin_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/searchIntegrationWin.dtd
+source_file = mozilla-en/mail/chrome/messenger/searchIntegrationWin.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_sendoptions_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/sendoptions.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/sendoptions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_applications_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/applications.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/applications.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_offline_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/offline.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/offline.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_security_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/security.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/security.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_cookies_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/cookies.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/cookies.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_advanced_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/advanced.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/advanced.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_applicationManager_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/applicationManager.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/applicationManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_compose_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/compose.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/compose.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_connection_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/connection.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/connection.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_permissions_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/permissions.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/permissions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_general_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/general.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/general.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_preferences_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/preferences.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/preferences.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_receipts_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/receipts.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/receipts.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_notifications_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/notifications.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/notifications.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_fonts_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/fonts.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/fonts.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_attachmentReminder_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/attachmentReminder.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/attachmentReminder.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_chat_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/chat.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/chat.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_display_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/display.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/display.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_CustomHeaders_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/CustomHeaders.dtd
+source_file = mozilla-en/mail/chrome/messenger/CustomHeaders.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_messenger_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messenger.dtd
+source_file = mozilla-en/mail/chrome/messenger/messenger.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_folderProps_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/folderProps.dtd
+source_file = mozilla-en/mail/chrome/messenger/folderProps.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-copies_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-copies.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-copies.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-server-top_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-server-top.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-server-top.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-main_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-main.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-main.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-identity-edit_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-identity-edit.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-identity-edit.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_mailViewList_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mailViewList.dtd
+source_file = mozilla-en/mail/chrome/messenger/mailViewList.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-mdn_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-mdn.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-mdn.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_joinChat_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/joinChat.dtd
+source_file = mozilla-en/mail/chrome/messenger/joinChat.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_virtualFolderListDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/virtualFolderListDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/virtualFolderListDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_smtpEditOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/smtpEditOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/smtpEditOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_editContactOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/editContactOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/editContactOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_migration_migration_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/migration/migration.dtd
+source_file = mozilla-en/mail/chrome/messenger/migration/migration.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_msgViewPickerOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/msgViewPickerOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/msgViewPickerOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_msgHdrViewOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/msgHdrViewOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/msgHdrViewOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_virtualFolderProperties_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/virtualFolderProperties.dtd
+source_file = mozilla-en/mail/chrome/messenger/virtualFolderProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_mailOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mailOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/mailOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-offline_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-offline.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-offline.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_searchIntegrationDefault_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/searchIntegrationDefault.dtd
+source_file = mozilla-en/mail/chrome/messenger/searchIntegrationDefault.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_systemIntegrationDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/systemIntegrationDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/systemIntegrationDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_safeMode_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/safeMode.dtd
+source_file = mozilla-en/mail/chrome/messenger/safeMode.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_viewLog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/viewLog.dtd
+source_file = mozilla-en/mail/chrome/messenger/viewLog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-im_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-im.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-im.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_newFolderDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/newFolderDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/newFolderDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_addbuddy_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addbuddy.dtd
+source_file = mozilla-en/mail/chrome/messenger/addbuddy.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_AccountManager_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/AccountManager.dtd
+source_file = mozilla-en/mail/chrome/messenger/AccountManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_newTagDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/newTagDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/newTagDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_tabmail_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/tabmail.dtd
+source_file = mozilla-en/mail/chrome/messenger/tabmail.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_messengercompose_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/messengercompose.dtd
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/messengercompose.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_addressingWidgetOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/addressingWidgetOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/addressingWidgetOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_askSendFormat_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/askSendFormat.dtd
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/askSendFormat.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_sendProgress_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/sendProgress.dtd
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/sendProgress.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_mailComposeEditorOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/mailComposeEditorOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/mailComposeEditorOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_accountCreation_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/accountCreation.dtd
+source_file = mozilla-en/mail/chrome/messenger/accountCreation.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_downloadheaders_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/downloadheaders.dtd
+source_file = mozilla-en/mail/chrome/messenger/downloadheaders.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_newmailaccount_accountProvisioner_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/newmailaccount/accountProvisioner.dtd
+source_file = mozilla-en/mail/chrome/messenger/newmailaccount/accountProvisioner.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_msgAccountCentral_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/msgAccountCentral.dtd
+source_file = mozilla-en/mail/chrome/messenger/msgAccountCentral.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_aboutRights_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/aboutRights.dtd
+source_file = mozilla-en/mail/chrome/messenger/aboutRights.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_msgSynchronize_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/msgSynchronize.dtd
+source_file = mozilla-en/mail/chrome/messenger/msgSynchronize.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-smime_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-smime.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-smime.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_junkLog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/junkLog.dtd
+source_file = mozilla-en/mail/chrome/messenger/junkLog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_mailEditorOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mailEditorOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger/mailEditorOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-identities-list_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-identities-list.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-identities-list.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_aboutDialog_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/aboutDialog.dtd
+source_file = mozilla-en/mail/chrome/messenger/aboutDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_subscribe_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/subscribe.dtd
+source_file = mozilla-en/mail/chrome/messenger/subscribe.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_activity_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/activity.dtd
+source_file = mozilla-en/mail/chrome/messenger/activity.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_FilterEditor_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/FilterEditor.dtd
+source_file = mozilla-en/mail/chrome/messenger/FilterEditor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_chat_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/chat.dtd
+source_file = mozilla-en/mail/chrome/messenger/chat.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_markByDate_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/markByDate.dtd
+source_file = mozilla-en/mail/chrome/messenger/markByDate.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_AccountWizard_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/AccountWizard.dtd
+source_file = mozilla-en/mail/chrome/messenger/AccountWizard.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-serverwithnoidentities_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-serverwithnoidentities.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-serverwithnoidentities.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_imAccounts_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/imAccounts.dtd
+source_file = mozilla-en/mail/chrome/messenger/imAccounts.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_am-server-advanced_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-server-advanced.dtd
+source_file = mozilla-en/mail/chrome/messenger/am-server-advanced.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_mailViewSetup_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mailViewSetup.dtd
+source_file = mozilla-en/mail/chrome/messenger/mailViewSetup.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_fieldMapImport_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/fieldMapImport.dtd
+source_file = mozilla-en/mail/chrome/messenger/fieldMapImport.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_communicator_utilityOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/communicator/utilityOverlay.dtd
+source_file = mozilla-en/mail/chrome/communicator/utilityOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_feedback_main_dtd]
+file_filter = mozilla-<lang>/mail/feedback/main.dtd
+source_file = mozilla-en/mail/feedback/main.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_pref-toolbars_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/pref-toolbars.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/pref-toolbars.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_pref-editing_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/pref-editing.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/pref-editing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_editorSmileyOverlay_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/editorSmileyOverlay.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/editorSmileyOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_editingOverlay_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/editingOverlay.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/editingOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_editor_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/editor.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/editor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_editorPrefsOverlay_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/editorPrefsOverlay.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/editorPrefsOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_editorOverlay_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/editorOverlay.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/editorOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_composer_pref-composer_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/pref-composer.dtd
+source_file = mozilla-en/editor/ui/chrome/composer/pref-composer.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorInsertChars_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorInsertChars.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorInsertChars.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EdLinkChecker_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EdLinkChecker.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EdLinkChecker.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EdColorPicker_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EdColorPicker.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EdColorPicker.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorLinkProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorLinkProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorLinkProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EdNamedAnchorProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EdNamedAnchorProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EdNamedAnchorProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorSaveAsCharset_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorSaveAsCharset.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorSaveAsCharset.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorTextAreaProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorTextAreaProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorTextAreaProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorLabelProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorLabelProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorLabelProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorPageProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorPageProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorPageProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EdConvertToTable_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EdConvertToTable.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EdConvertToTable.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorFieldSetProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorFieldSetProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorFieldSetProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorReplace_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorReplace.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorReplace.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorPersonalDictionary_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorPersonalDictionary.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorPersonalDictionary.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorInputProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorInputProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorInputProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorPublishProgress_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorPublishProgress.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorPublishProgress.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditConflict_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditConflict.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditConflict.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorTableProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorTableProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorTableProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorInsertTOC_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorInsertTOC.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorInsertTOC.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorFormProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorFormProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorFormProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EdAdvancedEdit_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EdAdvancedEdit.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EdAdvancedEdit.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorSnapToGrid_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorSnapToGrid.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorSnapToGrid.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorSelectProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorSelectProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorSelectProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorButtonProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorButtonProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorButtonProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorColorProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorColorProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorColorProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorImageProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorImageProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorImageProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorPublish_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorPublish.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorPublish.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorInsertSource_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorInsertSource.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorInsertSource.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorHLineProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorHLineProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorHLineProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorInsertTable_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorInsertTable.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorInsertTable.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorListProperties_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorListProperties.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorListProperties.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EdDialogOverlay_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EdDialogOverlay.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EdDialogOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorSpellCheck_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorSpellCheck.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorSpellCheck.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_webapprt_webapp_dtd]
+file_filter = mozilla-<lang>/browser/webapprt/webapp.dtd
+source_file = mozilla-en/browser/webapprt/webapp.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_overrides_settingsChange_dtd]
+file_filter = mozilla-<lang>/browser/chrome/overrides/settingsChange.dtd
+source_file = mozilla-en/browser/chrome/overrides/settingsChange.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_overrides_netError_dtd]
+file_filter = mozilla-<lang>/browser/chrome/overrides/netError.dtd
+source_file = mozilla-en/browser/chrome/overrides/netError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_sanitize_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/sanitize.dtd
+source_file = mozilla-en/browser/chrome/browser/sanitize.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_webConsole_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/webConsole.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/webConsole.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_styleeditor_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/styleeditor.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/styleeditor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_debugger_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/debugger.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/debugger.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_scratchpad_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/scratchpad.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/scratchpad.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_sourceeditor_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/sourceeditor.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/sourceeditor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_styleinspector_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/styleinspector.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/styleinspector.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_layoutview_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/layoutview.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/layoutview.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_safebrowsing_report-phishing_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/safebrowsing/report-phishing.dtd
+source_file = mozilla-en/browser/chrome/browser/safebrowsing/report-phishing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_safebrowsing_phishing-afterload-warning-message_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
+source_file = mozilla-en/browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_searchbar_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/searchbar.dtd
+source_file = mozilla-en/browser/chrome/browser/searchbar.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_newTab_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/newTab.dtd
+source_file = mozilla-en/browser/chrome/browser/newTab.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_tabbrowser_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/tabbrowser.dtd
+source_file = mozilla-en/browser/chrome/browser/tabbrowser.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_pageInfo_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/pageInfo.dtd
+source_file = mozilla-en/browser/chrome/browser/pageInfo.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_syncSetup_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncSetup.dtd
+source_file = mozilla-en/browser/chrome/browser/syncSetup.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_syncKey_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncKey.dtd
+source_file = mozilla-en/browser/chrome/browser/syncKey.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_syncProgress_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncProgress.dtd
+source_file = mozilla-en/browser/chrome/browser/syncProgress.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_engineManager_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/engineManager.dtd
+source_file = mozilla-en/browser/chrome/browser/engineManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_baseMenuOverlay_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/baseMenuOverlay.dtd
+source_file = mozilla-en/browser/chrome/browser/baseMenuOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutRobots_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutRobots.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutRobots.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_applications_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/applications.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/applications.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_security_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/security.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/security.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_cookies_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/cookies.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/cookies.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_advanced_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/advanced.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/advanced.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_applicationManager_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/applicationManager.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/applicationManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_connection_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/connection.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/connection.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_permissions_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/permissions.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/permissions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_preferences_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/preferences.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/preferences.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_content_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/content.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/content.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_advanced-scripts_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/advanced-scripts.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/advanced-scripts.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_tabs_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/tabs.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/tabs.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_colors_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/colors.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/colors.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_sync_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/sync.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/sync.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_fonts_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/fonts.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/fonts.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_aboutPermissions_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/aboutPermissions.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/aboutPermissions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_languages_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/languages.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/languages.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_main_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/main.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/main.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_privacy_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/privacy.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/privacy.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_preferences_selectBookmark_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/selectBookmark.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/selectBookmark.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_feeds_subscribe_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/feeds/subscribe.dtd
+source_file = mozilla-en/browser/chrome/browser/feeds/subscribe.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_downloads_downloads_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/downloads/downloads.dtd
+source_file = mozilla-en/browser/chrome/browser/downloads/downloads.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutSyncTabs_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutSyncTabs.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutSyncTabs.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_browser_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/browser.dtd
+source_file = mozilla-en/browser/chrome/browser/browser.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_migration_migration_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/migration/migration.dtd
+source_file = mozilla-en/browser/chrome/browser/migration/migration.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_syncQuota_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncQuota.dtd
+source_file = mozilla-en/browser/chrome/browser/syncQuota.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutPrivateBrowsing_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutPrivateBrowsing.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutPrivateBrowsing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_safeMode_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/safeMode.dtd
+source_file = mozilla-en/browser/chrome/browser/safeMode.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_openLocation_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/openLocation.dtd
+source_file = mozilla-en/browser/chrome/browser/openLocation.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutHome_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutHome.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutHome.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutSessionRestore_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutSessionRestore.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutSessionRestore.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_syncBrand_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncBrand.dtd
+source_file = mozilla-en/browser/chrome/browser/syncBrand.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutDialog_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutDialog.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_places_places_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/places/places.dtd
+source_file = mozilla-en/browser/chrome/browser/places/places.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_places_moveBookmarks_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/places/moveBookmarks.dtd
+source_file = mozilla-en/browser/chrome/browser/places/moveBookmarks.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_places_editBookmarkOverlay_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/places/editBookmarkOverlay.dtd
+source_file = mozilla-en/browser/chrome/browser/places/editBookmarkOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_setDesktopBackground_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/setDesktopBackground.dtd
+source_file = mozilla-en/browser/chrome/browser/setDesktopBackground.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutCertError_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutCertError.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutCertError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_feedback_main_dtd]
+file_filter = mozilla-<lang>/browser/feedback/main.dtd
+source_file = mozilla-en/browser/feedback/main.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_overrides_netError_dtd]
+file_filter = mozilla-<lang>/mobile/overrides/netError.dtd
+source_file = mozilla-en/mobile/overrides/netError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_about_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/about.dtd
+source_file = mozilla-en/mobile/xul/chrome/about.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_feedback_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/feedback.dtd
+source_file = mozilla-en/mobile/xul/chrome/feedback.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_webapps_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/webapps.dtd
+source_file = mozilla-en/mobile/xul/chrome/webapps.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_browser_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/browser.dtd
+source_file = mozilla-en/mobile/xul/chrome/browser.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_preferences_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/preferences.dtd
+source_file = mozilla-en/mobile/xul/chrome/preferences.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_phishing_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/phishing.dtd
+source_file = mozilla-en/mobile/xul/chrome/phishing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_sync_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/sync.dtd
+source_file = mozilla-en/mobile/xul/chrome/sync.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_aboutHome_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/aboutHome.dtd
+source_file = mozilla-en/mobile/xul/chrome/aboutHome.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_config_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/config.dtd
+source_file = mozilla-en/mobile/xul/chrome/config.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_checkbox_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/checkbox.dtd
+source_file = mozilla-en/mobile/xul/chrome/checkbox.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_aboutCertError_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/aboutCertError.dtd
+source_file = mozilla-en/mobile/xul/chrome/aboutCertError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_prompt_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/prompt.dtd
+source_file = mozilla-en/mobile/xul/chrome/prompt.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_xul_chrome_notification_dtd]
+file_filter = mozilla-<lang>/mobile/xul/chrome/notification.dtd
+source_file = mozilla-en/mobile/xul/chrome/notification.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_about_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/about.dtd
+source_file = mozilla-en/mobile/android/chrome/about.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutApps_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutApps.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutApps.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_feedback_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/feedback.dtd
+source_file = mozilla-en/mobile/android/chrome/feedback.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutAddons_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutAddons.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutAddons.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_phishing_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/phishing.dtd
+source_file = mozilla-en/mobile/android/chrome/phishing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutDownloads_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutDownloads.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutDownloads.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_sync_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/sync.dtd
+source_file = mozilla-en/mobile/android/chrome/sync.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutHome_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutHome.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutHome.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_config_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/config.dtd
+source_file = mozilla-en/mobile/android/chrome/config.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_checkbox_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/checkbox.dtd
+source_file = mozilla-en/mobile/android/chrome/checkbox.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutCertError_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutCertError.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutCertError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_prompt_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/prompt.dtd
+source_file = mozilla-en/mobile/android/chrome/prompt.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutFeedback_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutFeedback.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutFeedback.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_notification_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/notification.dtd
+source_file = mozilla-en/mobile/android/chrome/notification.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_base_sync_strings_dtd]
+file_filter = mozilla-<lang>/mobile/android/base/sync_strings.dtd
+source_file = mozilla-en/mobile/android/base/sync_strings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_base_android_strings_dtd]
+file_filter = mozilla-<lang>/mobile/android/base/android_strings.dtd
+source_file = mozilla-en/mobile/android/base/android_strings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_sunbird_sunbird_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/sunbird/sunbird.dtd
+source_file = mozilla-en/calendar/chrome/sunbird/sunbird.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_sunbird_menuOverlay_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/sunbird/menuOverlay.dtd
+source_file = mozilla-en/calendar/chrome/sunbird/menuOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_sunbird_aboutDialog_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/sunbird/aboutDialog.dtd
+source_file = mozilla-en/calendar/chrome/sunbird/aboutDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_calendar-occurrence-prompt_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-occurrence-prompt.dtd
+source_file = mozilla-en/calendar/chrome/calendar/calendar-occurrence-prompt.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_calendar_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar.dtd
+source_file = mozilla-en/calendar/chrome/calendar/calendar.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_advanced_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/advanced.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/advanced.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_connection_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/connection.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/connection.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_alarms_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/alarms.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/alarms.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_general_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/general.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/general.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_preferences_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/preferences.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/preferences.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_views_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/views.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/views.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_timezones_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/timezones.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/timezones.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_preferences_categories_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/categories.dtd
+source_file = mozilla-en/calendar/chrome/calendar/preferences/categories.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_calendarCreation_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendarCreation.dtd
+source_file = mozilla-en/calendar/chrome/calendar/calendarCreation.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_calendar-subscriptions-dialog_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-subscriptions-dialog.dtd
+source_file = mozilla-en/calendar/chrome/calendar/calendar-subscriptions-dialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_provider-uninstall_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/provider-uninstall.dtd
+source_file = mozilla-en/calendar/chrome/calendar/provider-uninstall.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_global_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/global.dtd
+source_file = mozilla-en/calendar/chrome/calendar/global.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_menuOverlay_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/menuOverlay.dtd
+source_file = mozilla-en/calendar/chrome/calendar/menuOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_dialogs_calendar-event-dialog-reminder_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/dialogs/calendar-event-dialog-reminder.dtd
+source_file = mozilla-en/calendar/chrome/calendar/dialogs/calendar-event-dialog-reminder.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_calendar-invitations-dialog_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-invitations-dialog.dtd
+source_file = mozilla-en/calendar/chrome/calendar/calendar-invitations-dialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_migration_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/migration.dtd
+source_file = mozilla-en/calendar/chrome/calendar/migration.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_providers_gdata_gdata_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/providers/gdata/gdata.dtd
+source_file = mozilla-en/calendar/chrome/calendar/providers/gdata/gdata.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_calendar_calendar-event-dialog_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-event-dialog.dtd
+source_file = mozilla-en/calendar/chrome/calendar/calendar-event-dialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_lightning_lightning-toolbar_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/lightning/lightning-toolbar.dtd
+source_file = mozilla-en/calendar/chrome/lightning/lightning-toolbar.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.calendar_chrome_lightning_lightning_dtd]
+file_filter = mozilla-<lang>/calendar/chrome/lightning/lightning.dtd
+source_file = mozilla-en/calendar/chrome/lightning/lightning.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_handling_handling_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/handling/handling.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/handling/handling.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_preferences_ocsp_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/preferences/ocsp.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/preferences/ocsp.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_preferences_removemp_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/preferences/removemp.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/preferences/removemp.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_preferences_changemp_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/preferences/changemp.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/preferences/changemp.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_help_help_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/help/help.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/help/help.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_update_updates_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/update/updates.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/update/updates.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_update_history_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/update/history.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/update/history.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_downloads_settingsChange_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/downloads/settingsChange.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/downloads/settingsChange.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_downloads_unknownContentType_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/downloads/unknownContentType.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/downloads/unknownContentType.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_downloads_downloads_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/downloads/downloads.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/downloads/downloads.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_plugins_plugins_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/plugins/plugins.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/plugins/plugins.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_selectAddons_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/selectAddons.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/selectAddons.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_about_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/about.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/about.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_newaddon_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/newaddon.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/newaddon.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_blocklist_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/blocklist.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/blocklist.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_extensions_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/extensions.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/extensions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_xpinstallConfirm_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_update_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/update.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/update.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_profile_profileSelection_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/profile/profileSelection.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/profile/profileSelection.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_mozapps_profile_createProfileWizard_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/profile/createProfileWizard.dtd
+source_file = mozilla-en/toolkit/chrome/mozapps/profile/createProfileWizard.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_cookie_cookieAcceptDialog_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/cookie/cookieAcceptDialog.dtd
+source_file = mozilla-en/toolkit/chrome/cookie/cookieAcceptDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_filepicker_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/filepicker.dtd
+source_file = mozilla-en/toolkit/chrome/global/filepicker.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_about_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/about.dtd
+source_file = mozilla-en/toolkit/chrome/global/about.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_appPicker_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/appPicker.dtd
+source_file = mozilla-en/toolkit/chrome/global/appPicker.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_aboutTelemetry_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutTelemetry.dtd
+source_file = mozilla-en/toolkit/chrome/global/aboutTelemetry.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_editMenuOverlay_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/editMenuOverlay.dtd
+source_file = mozilla-en/toolkit/chrome/global/editMenuOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_viewSource_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/viewSource.dtd
+source_file = mozilla-en/toolkit/chrome/global/viewSource.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_printdialog_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printdialog.dtd
+source_file = mozilla-en/toolkit/chrome/global/printdialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_printPageSetup_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printPageSetup.dtd
+source_file = mozilla-en/toolkit/chrome/global/printPageSetup.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_charsetOverlay_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/charsetOverlay.dtd
+source_file = mozilla-en/toolkit/chrome/global/charsetOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_actions_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/actions.dtd
+source_file = mozilla-en/toolkit/chrome/global/actions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_datetimepicker_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/datetimepicker.dtd
+source_file = mozilla-en/toolkit/chrome/global/datetimepicker.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_printProgress_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printProgress.dtd
+source_file = mozilla-en/toolkit/chrome/global/printProgress.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_preferences_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/preferences.dtd
+source_file = mozilla-en/toolkit/chrome/global/preferences.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_wizard_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/wizard.dtd
+source_file = mozilla-en/toolkit/chrome/global/wizard.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_printPreview_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printPreview.dtd
+source_file = mozilla-en/toolkit/chrome/global/printPreview.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_tree_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/tree.dtd
+source_file = mozilla-en/toolkit/chrome/global/tree.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_printPreviewProgress_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printPreviewProgress.dtd
+source_file = mozilla-en/toolkit/chrome/global/printPreviewProgress.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_dialogOverlay_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/dialogOverlay.dtd
+source_file = mozilla-en/toolkit/chrome/global/dialogOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_findbar_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/findbar.dtd
+source_file = mozilla-en/toolkit/chrome/global/findbar.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_console_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/console.dtd
+source_file = mozilla-en/toolkit/chrome/global/console.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_aboutRights_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutRights.dtd
+source_file = mozilla-en/toolkit/chrome/global/aboutRights.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_config_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/config.dtd
+source_file = mozilla-en/toolkit/chrome/global/config.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_resetProfile_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/resetProfile.dtd
+source_file = mozilla-en/toolkit/chrome/global/resetProfile.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_aboutAbout_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutAbout.dtd
+source_file = mozilla-en/toolkit/chrome/global/aboutAbout.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_commonDialog_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/commonDialog.dtd
+source_file = mozilla-en/toolkit/chrome/global/commonDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_mozilla_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/mozilla.dtd
+source_file = mozilla-en/toolkit/chrome/global/mozilla.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_globalKeys_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/globalKeys.dtd
+source_file = mozilla-en/toolkit/chrome/global/globalKeys.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_textcontext_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/textcontext.dtd
+source_file = mozilla-en/toolkit/chrome/global/textcontext.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_printjoboptions_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printjoboptions.dtd
+source_file = mozilla-en/toolkit/chrome/global/printjoboptions.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_videocontrols_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/videocontrols.dtd
+source_file = mozilla-en/toolkit/chrome/global/videocontrols.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_finddialog_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/finddialog.dtd
+source_file = mozilla-en/toolkit/chrome/global/finddialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_aboutSupport_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutSupport.dtd
+source_file = mozilla-en/toolkit/chrome/global/aboutSupport.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_customizeCharset_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/customizeCharset.dtd
+source_file = mozilla-en/toolkit/chrome/global/customizeCharset.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_notification_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/notification.dtd
+source_file = mozilla-en/toolkit/chrome/global/notification.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_customizeToolbar_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/customizeToolbar.dtd
+source_file = mozilla-en/toolkit/chrome/global/customizeToolbar.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_passwordmgr_passwordManager_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/passwordmgr/passwordManager.dtd
+source_file = mozilla-en/toolkit/chrome/passwordmgr/passwordManager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_crashreporter_crashes_dtd]
+file_filter = mozilla-<lang>/toolkit/crashreporter/crashes.dtd
+source_file = mozilla-en/toolkit/crashreporter/crashes.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.dom_chrome_global_dtd]
+file_filter = mozilla-<lang>/dom/chrome/global.dtd
+source_file = mozilla-en/dom/chrome/global.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.dom_chrome_netErrorApp_dtd]
+file_filter = mozilla-<lang>/dom/chrome/netErrorApp.dtd
+source_file = mozilla-en/dom/chrome/netErrorApp.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.dom_chrome_xml_prettyprint_dtd]
+file_filter = mozilla-<lang>/dom/chrome/xml/prettyprint.dtd
+source_file = mozilla-en/dom/chrome/xml/prettyprint.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.dom_chrome_netError_dtd]
+file_filter = mozilla-<lang>/dom/chrome/netError.dtd
+source_file = mozilla-en/dom/chrome/netError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.security_manager_chrome_pippki_pippki_properties]
+file_filter = mozilla-<lang>/security/manager/chrome/pippki/pippki.properties
+source_file = mozilla-en/security/manager/chrome/pippki/pippki.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.security_manager_chrome_pipnss_nsserrors_properties]
+file_filter = mozilla-<lang>/security/manager/chrome/pipnss/nsserrors.properties
+source_file = mozilla-en/security/manager/chrome/pipnss/nsserrors.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.security_manager_chrome_pipnss_security_properties]
+file_filter = mozilla-<lang>/security/manager/chrome/pipnss/security.properties
+source_file = mozilla-en/security/manager/chrome/pipnss/security.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.security_manager_chrome_pipnss_pipnss_properties]
+file_filter = mozilla-<lang>/security/manager/chrome/pipnss/pipnss.properties
+source_file = mozilla-en/security/manager/chrome/pipnss/pipnss.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.other-licenses_branding_thunderbird_brand_properties]
+file_filter = mozilla-<lang>/other-licenses/branding/thunderbird/brand.properties
+source_file = mozilla-en/other-licenses/branding/thunderbird/brand.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.services_sync_sync_properties]
+file_filter = mozilla-<lang>/services/sync/sync.properties
+source_file = mozilla-en/services/sync/sync.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.services_sync_errors_properties]
+file_filter = mozilla-<lang>/services/sync/errors.properties
+source_file = mozilla-en/services/sync/errors.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger-newsblog_newsblog_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger-newsblog/newsblog.properties
+source_file = mozilla-en/mail/chrome/messenger-newsblog/newsblog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger-smime_msgCompSecurityInfo_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgCompSecurityInfo.properties
+source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSecurityInfo.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger-smime_msgCompSMIMEOverlay_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgCompSMIMEOverlay.properties
+source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSMIMEOverlay.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger-smime_msgSecurityInfo_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgSecurityInfo.properties
+source_file = mozilla-en/mail/chrome/messenger-smime/msgSecurityInfo.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger-smime_msgReadSMIMEOverlay_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgReadSMIMEOverlay.properties
+source_file = mozilla-en/mail/chrome/messenger-smime/msgReadSMIMEOverlay.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_messenger_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messenger.properties
+source_file = mozilla-en/mail/chrome/messenger/messenger.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_aboutRights_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/aboutRights.properties
+source_file = mozilla-en/mail/chrome/messenger/aboutRights.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_pgpmime_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/pgpmime.properties
+source_file = mozilla-en/mail/chrome/messenger/pgpmime.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_accountCreation_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/accountCreation.properties
+source_file = mozilla-en/mail/chrome/messenger/accountCreation.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_outlookImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/outlookImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/outlookImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_mime_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mime.properties
+source_file = mozilla-en/mail/chrome/messenger/mime.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_importMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/importMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/importMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_prefs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/prefs.properties
+source_file = mozilla-en/mail/chrome/messenger/prefs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_addressbook_ldapAutoCompErrs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/ldapAutoCompErrs.properties
+source_file = mozilla-en/mail/chrome/messenger/addressbook/ldapAutoCompErrs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_addressbook_replicationProgress_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/replicationProgress.properties
+source_file = mozilla-en/mail/chrome/messenger/addressbook/replicationProgress.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_addressbook_addressBook_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/addressBook.properties
+source_file = mozilla-en/mail/chrome/messenger/addressbook/addressBook.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_editContactOverlay_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/editContactOverlay.properties
+source_file = mozilla-en/mail/chrome/messenger/editContactOverlay.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_am-mdn_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-mdn.properties
+source_file = mozilla-en/mail/chrome/messenger/am-mdn.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_textImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/textImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/textImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_imapMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/imapMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/imapMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_accountCreationUtil_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/accountCreationUtil.properties
+source_file = mozilla-en/mail/chrome/messenger/accountCreationUtil.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_wmImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/wmImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/wmImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_preferences_applications_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/applications.properties
+source_file = mozilla-en/mail/chrome/messenger/preferences/applications.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_preferences_preferences_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/preferences.properties
+source_file = mozilla-en/mail/chrome/messenger/preferences/preferences.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_preferences_applicationManager_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/applicationManager.properties
+source_file = mozilla-en/mail/chrome/messenger/preferences/applicationManager.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_glodaFacetView_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/glodaFacetView.properties
+source_file = mozilla-en/mail/chrome/messenger/glodaFacetView.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_mimeheader_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mimeheader.properties
+source_file = mozilla-en/mail/chrome/messenger/mimeheader.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_telemetry_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/telemetry.properties
+source_file = mozilla-en/mail/chrome/messenger/telemetry.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_gloda_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/gloda.properties
+source_file = mozilla-en/mail/chrome/messenger/gloda.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_migration_migration_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/migration/migration.properties
+source_file = mozilla-en/mail/chrome/messenger/migration/migration.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_aboutSupportMail_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/aboutSupportMail.properties
+source_file = mozilla-en/mail/chrome/messenger/aboutSupportMail.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_localMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/localMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/localMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_oeImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/oeImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/oeImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_shutdownWindow_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/shutdownWindow.properties
+source_file = mozilla-en/mail/chrome/messenger/shutdownWindow.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_search-attributes_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/search-attributes.properties
+source_file = mozilla-en/mail/chrome/messenger/search-attributes.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_glodaComplete_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/glodaComplete.properties
+source_file = mozilla-en/mail/chrome/messenger/glodaComplete.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_multimessageview_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/multimessageview.properties
+source_file = mozilla-en/mail/chrome/messenger/multimessageview.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_activity_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/activity.properties
+source_file = mozilla-en/mail/chrome/messenger/activity.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_smime_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/smime.properties
+source_file = mozilla-en/mail/chrome/messenger/smime.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_subscribe_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/subscribe.properties
+source_file = mozilla-en/mail/chrome/messenger/subscribe.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_chat_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/chat.properties
+source_file = mozilla-en/mail/chrome/messenger/chat.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_askSendFormat_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/askSendFormat.properties
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/askSendFormat.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_composeMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/composeMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/composeMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_messengercompose_sendProgress_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/messengercompose/sendProgress.properties
+source_file = mozilla-en/mail/chrome/messenger/messengercompose/sendProgress.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_taskbar_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/taskbar.properties
+source_file = mozilla-en/mail/chrome/messenger/taskbar.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_eudoraImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/eudoraImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/eudoraImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_offline_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/offline.properties
+source_file = mozilla-en/mail/chrome/messenger/offline.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_newmailaccount_accountProvisioner_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/newmailaccount/accountProvisioner.properties
+source_file = mozilla-en/mail/chrome/messenger/newmailaccount/accountProvisioner.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_imAccounts_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/imAccounts.properties
+source_file = mozilla-en/mail/chrome/messenger/imAccounts.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_offlineStartup_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/offlineStartup.properties
+source_file = mozilla-en/mail/chrome/messenger/offlineStartup.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_appleMailImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/appleMailImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/appleMailImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_am-smime_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/am-smime.properties
+source_file = mozilla-en/mail/chrome/messenger/am-smime.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_vCardImportMsgs_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/vCardImportMsgs.properties
+source_file = mozilla-en/mail/chrome/messenger/vCardImportMsgs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_msgmdn_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/msgmdn.properties
+source_file = mozilla-en/mail/chrome/messenger/msgmdn.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_mailviews_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/mailviews.properties
+source_file = mozilla-en/mail/chrome/messenger/mailviews.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_filter_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/filter.properties
+source_file = mozilla-en/mail/chrome/messenger/filter.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_search-operators_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/search-operators.properties
+source_file = mozilla-en/mail/chrome/messenger/search-operators.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_search_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/search.properties
+source_file = mozilla-en/mail/chrome/messenger/search.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_news_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/news.properties
+source_file = mozilla-en/mail/chrome/messenger/news.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_accountCreationModel_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/accountCreationModel.properties
+source_file = mozilla-en/mail/chrome/messenger/accountCreationModel.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_templateUtils_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/templateUtils.properties
+source_file = mozilla-en/mail/chrome/messenger/templateUtils.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_custom_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/custom.properties
+source_file = mozilla-en/mail/chrome/messenger/custom.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_mozldap_ldap_properties]
+file_filter = mozilla-<lang>/mail/chrome/mozldap/ldap.properties
+source_file = mozilla-en/mail/chrome/mozldap/ldap.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger-mapi_mapi_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger-mapi/mapi.properties
+source_file = mozilla-en/mail/chrome/messenger-mapi/mapi.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_feedback_main_properties]
+file_filter = mozilla-<lang>/mail/feedback/main.properties
+source_file = mozilla-en/mail/feedback/main.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_installer_override_properties]
+file_filter = mozilla-<lang>/mail/installer/override.properties
+source_file = mozilla-en/mail/installer/override.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_installer_mui_properties]
+file_filter = mozilla-<lang>/mail/installer/mui.properties
+source_file = mozilla-en/mail/installer/mui.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_installer_custom_properties]
+file_filter = mozilla-<lang>/mail/installer/custom.properties
+source_file = mozilla-en/mail/installer/custom.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.editor_ui_chrome_composer_editor_properties]
+file_filter = mozilla-<lang>/editor/ui/chrome/composer/editor.properties
+source_file = mozilla-en/editor/ui/chrome/composer/editor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_webapprt_webapp_properties]
+file_filter = mozilla-<lang>/browser/webapprt/webapp.properties
+source_file = mozilla-en/browser/webapprt/webapp.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_overrides_appstrings_properties]
+file_filter = mozilla-<lang>/browser/chrome/overrides/appstrings.properties
+source_file = mozilla-en/browser/chrome/overrides/appstrings.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_styleeditor_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/styleeditor.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/styleeditor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_responsiveUI_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/responsiveUI.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/responsiveUI.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_sourceeditor_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/sourceeditor.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/sourceeditor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_gclicommands_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/gclicommands.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/gclicommands.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_inspector_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/inspector.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/inspector.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_scratchpad_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/scratchpad.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/scratchpad.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_webconsole_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/webconsole.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/webconsole.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_styleinspector_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/styleinspector.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/styleinspector.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_gcli_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/gcli.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/gcli.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_debugger_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/debugger.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/debugger.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_tilt_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/tilt.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/tilt.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_engineManager_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/engineManager.properties
+source_file = mozilla-en/browser/chrome/browser/engineManager.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_tabview_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/tabview.properties
+source_file = mozilla-en/browser/chrome/browser/tabview.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_browser_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/browser.properties
+source_file = mozilla-en/browser/chrome/browser/browser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_syncSetup_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncSetup.properties
+source_file = mozilla-en/browser/chrome/browser/syncSetup.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_shellservice_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/shellservice.properties
+source_file = mozilla-en/browser/chrome/browser/shellservice.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_preferences_preferences_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/preferences.properties
+source_file = mozilla-en/browser/chrome/browser/preferences/preferences.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_preferences_applicationManager_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/applicationManager.properties
+source_file = mozilla-en/browser/chrome/browser/preferences/applicationManager.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_preferences_aboutPermissions_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/aboutPermissions.properties
+source_file = mozilla-en/browser/chrome/browser/preferences/aboutPermissions.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_feeds_subscribe_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/feeds/subscribe.properties
+source_file = mozilla-en/browser/chrome/browser/feeds/subscribe.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_newTab_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/newTab.properties
+source_file = mozilla-en/browser/chrome/browser/newTab.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_downloads_downloads_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/downloads/downloads.properties
+source_file = mozilla-en/browser/chrome/browser/downloads/downloads.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_migration_migration_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/migration/migration.properties
+source_file = mozilla-en/browser/chrome/browser/migration/migration.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_syncQuota_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncQuota.properties
+source_file = mozilla-en/browser/chrome/browser/syncQuota.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_taskbar_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/taskbar.properties
+source_file = mozilla-en/browser/chrome/browser/taskbar.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_tabbrowser_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/tabbrowser.properties
+source_file = mozilla-en/browser/chrome/browser/tabbrowser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_openLocation_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/openLocation.properties
+source_file = mozilla-en/browser/chrome/browser/openLocation.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_quitDialog_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/quitDialog.properties
+source_file = mozilla-en/browser/chrome/browser/quitDialog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_places_bookmarkProperties_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/places/bookmarkProperties.properties
+source_file = mozilla-en/browser/chrome/browser/places/bookmarkProperties.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_places_places_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/places/places.properties
+source_file = mozilla-en/browser/chrome/browser/places/places.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_pageInfo_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/pageInfo.properties
+source_file = mozilla-en/browser/chrome/browser/pageInfo.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_search_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/search.properties
+source_file = mozilla-en/browser/chrome/browser/search.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_syncGenericChange_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncGenericChange.properties
+source_file = mozilla-en/browser/chrome/browser/syncGenericChange.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_feedback_main_properties]
+file_filter = mozilla-<lang>/browser/feedback/main.properties
+source_file = mozilla-en/browser/feedback/main.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_pdfviewer_viewer_properties]
+file_filter = mozilla-<lang>/browser/pdfviewer/viewer.properties
+source_file = mozilla-en/browser/pdfviewer/viewer.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_pdfviewer_chrome_properties]
+file_filter = mozilla-<lang>/browser/pdfviewer/chrome.properties
+source_file = mozilla-en/browser/pdfviewer/chrome.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_webapp-uninstaller_webapp-uninstaller_properties]
+file_filter = mozilla-<lang>/browser/webapp-uninstaller/webapp-uninstaller.properties
+source_file = mozilla-en/browser/webapp-uninstaller/webapp-uninstaller.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_installer_nsisstrings_properties]
+file_filter = mozilla-<lang>/browser/installer/nsisstrings.properties
+source_file = mozilla-en/browser/installer/nsisstrings.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_installer_override_properties]
+file_filter = mozilla-<lang>/browser/installer/override.properties
+source_file = mozilla-en/browser/installer/override.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_installer_mui_properties]
+file_filter = mozilla-<lang>/browser/installer/mui.properties
+source_file = mozilla-en/browser/installer/mui.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_installer_custom_properties]
+file_filter = mozilla-<lang>/browser/installer/custom.properties
+source_file = mozilla-en/browser/installer/custom.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_facebook_properties]
+file_filter = mozilla-<lang>/chat/facebook.properties
+source_file = mozilla-en/chat/facebook.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_commands_properties]
+file_filter = mozilla-<lang>/chat/commands.properties
+source_file = mozilla-en/chat/commands.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_status_properties]
+file_filter = mozilla-<lang>/chat/status.properties
+source_file = mozilla-en/chat/status.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_irc_properties]
+file_filter = mozilla-<lang>/chat/irc.properties
+source_file = mozilla-en/chat/irc.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_conversations_properties]
+file_filter = mozilla-<lang>/chat/conversations.properties
+source_file = mozilla-en/chat/conversations.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_accounts_properties]
+file_filter = mozilla-<lang>/chat/accounts.properties
+source_file = mozilla-en/chat/accounts.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_xmpp_properties]
+file_filter = mozilla-<lang>/chat/xmpp.properties
+source_file = mozilla-en/chat/xmpp.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_twitter_properties]
+file_filter = mozilla-<lang>/chat/twitter.properties
+source_file = mozilla-en/chat/twitter.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_overrides_appstrings_properties]
+file_filter = mozilla-<lang>/mobile/overrides/appstrings.properties
+source_file = mozilla-en/mobile/overrides/appstrings.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_overrides_passwordmgr_properties]
+file_filter = mozilla-<lang>/mobile/overrides/passwordmgr.properties
+source_file = mozilla-en/mobile/overrides/passwordmgr.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_xul_chrome_localepicker_properties]
+file_filter = mozilla-<lang>/mobile/xul/chrome/localepicker.properties
+source_file = mozilla-en/mobile/xul/chrome/localepicker.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_xul_chrome_sync_properties]
+file_filter = mozilla-<lang>/mobile/xul/chrome/sync.properties
+source_file = mozilla-en/mobile/xul/chrome/sync.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_xul_chrome_browser_properties]
+file_filter = mozilla-<lang>/mobile/xul/chrome/browser.properties
+source_file = mozilla-en/mobile/xul/chrome/browser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_aboutAddons_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutAddons.properties
+source_file = mozilla-en/mobile/android/chrome/aboutAddons.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_aboutReader_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutReader.properties
+source_file = mozilla-en/mobile/android/chrome/aboutReader.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_localepicker_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/localepicker.properties
+source_file = mozilla-en/mobile/android/chrome/localepicker.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_sync_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/sync.properties
+source_file = mozilla-en/mobile/android/chrome/sync.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_browser_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/browser.properties
+source_file = mozilla-en/mobile/android/chrome/browser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_aboutDownloads_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutDownloads.properties
+source_file = mozilla-en/mobile/android/chrome/aboutDownloads.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_config_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/config.properties
+source_file = mozilla-en/mobile/android/chrome/config.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_aboutApps_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutApps.properties
+source_file = mozilla-en/mobile/android/chrome/aboutApps.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_calendar-event-dialog_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-event-dialog.properties
+source_file = mozilla-en/calendar/chrome/calendar/calendar-event-dialog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_dateFormat_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/dateFormat.properties
+source_file = mozilla-en/calendar/chrome/calendar/dateFormat.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_timezones_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/timezones.properties
+source_file = mozilla-en/calendar/chrome/calendar/timezones.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_categories_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/categories.properties
+source_file = mozilla-en/calendar/chrome/calendar/categories.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_calendar-event-dialog-attendees_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-event-dialog-attendees.properties
+source_file = mozilla-en/calendar/chrome/calendar/calendar-event-dialog-attendees.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_migration_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/migration.properties
+source_file = mozilla-en/calendar/chrome/calendar/migration.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_calendar-occurrence-prompt_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-occurrence-prompt.properties
+source_file = mozilla-en/calendar/chrome/calendar/calendar-occurrence-prompt.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_calendar-alarms_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-alarms.properties
+source_file = mozilla-en/calendar/chrome/calendar/calendar-alarms.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_calendarCreation_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendarCreation.properties
+source_file = mozilla-en/calendar/chrome/calendar/calendarCreation.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_providers_wcap_wcap_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/providers/wcap/wcap.properties
+source_file = mozilla-en/calendar/chrome/calendar/providers/wcap/wcap.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_providers_gdata_gdata_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/providers/gdata/gdata.properties
+source_file = mozilla-en/calendar/chrome/calendar/providers/gdata/gdata.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_calendar_calendar_properties]
+file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar.properties
+source_file = mozilla-en/calendar/chrome/calendar/calendar.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_chrome_lightning_lightning_properties]
+file_filter = mozilla-<lang>/calendar/chrome/lightning/lightning.properties
+source_file = mozilla-en/calendar/chrome/lightning/lightning.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_installer_override_properties]
+file_filter = mozilla-<lang>/calendar/installer/override.properties
+source_file = mozilla-en/calendar/installer/override.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_installer_mui_properties]
+file_filter = mozilla-<lang>/calendar/installer/mui.properties
+source_file = mozilla-en/calendar/installer/mui.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.calendar_installer_custom_properties]
+file_filter = mozilla-<lang>/calendar/installer/custom.properties
+source_file = mozilla-en/calendar/installer/custom.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_handling_handling_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/handling/handling.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/handling/handling.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_preferences_preferences_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/preferences/preferences.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/preferences/preferences.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_help_help_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/help/help.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/help/help.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_update_updates_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/update/updates.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/update/updates.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_downloads_downloads_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/downloads/downloads.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/downloads/downloads.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_downloads_unknownContentType_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/downloads/unknownContentType.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/downloads/unknownContentType.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_plugins_plugins_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/plugins/plugins.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/plugins/plugins.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_xpinstallConfirm_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_extensions_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/extensions.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/extensions.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_update_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/update.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/update.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_selectAddons_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/selectAddons.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/selectAddons.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_extensions_newaddon_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/newaddon.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/extensions/newaddon.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_profile_profileSelection_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/profile/profileSelection.properties
+source_file = mozilla-en/toolkit/chrome/mozapps/profile/profileSelection.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_cookie_cookieAcceptDialog_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/cookie/cookieAcceptDialog.properties
+source_file = mozilla-en/toolkit/chrome/cookie/cookieAcceptDialog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_commonDialogs_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/commonDialogs.properties
+source_file = mozilla-en/toolkit/chrome/global/commonDialogs.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_devtools_debugger_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/devtools/debugger.properties
+source_file = mozilla-en/toolkit/chrome/global/devtools/debugger.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_aboutRights_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutRights.properties
+source_file = mozilla-en/toolkit/chrome/global/aboutRights.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_filefield_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/filefield.properties
+source_file = mozilla-en/toolkit/chrome/global/filefield.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_aboutSupport_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutSupport.properties
+source_file = mozilla-en/toolkit/chrome/global/aboutSupport.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_printdialog_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/printdialog.properties
+source_file = mozilla-en/toolkit/chrome/global/printdialog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_downloadProgress_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/downloadProgress.properties
+source_file = mozilla-en/toolkit/chrome/global/downloadProgress.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_findbar_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/findbar.properties
+source_file = mozilla-en/toolkit/chrome/global/findbar.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_browser_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/browser.properties
+source_file = mozilla-en/toolkit/chrome/global/browser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_dateFormat_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/dateFormat.properties
+source_file = mozilla-en/toolkit/chrome/global/dateFormat.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_headsUpDisplay_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/headsUpDisplay.properties
+source_file = mozilla-en/toolkit/chrome/global/headsUpDisplay.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_languageNames_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/languageNames.properties
+source_file = mozilla-en/toolkit/chrome/global/languageNames.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_viewSource_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/viewSource.properties
+source_file = mozilla-en/toolkit/chrome/global/viewSource.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_contentAreaCommands_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/contentAreaCommands.properties
+source_file = mozilla-en/toolkit/chrome/global/contentAreaCommands.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_aboutTelemetry_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutTelemetry.properties
+source_file = mozilla-en/toolkit/chrome/global/aboutTelemetry.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_nsTreeSorting_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/nsTreeSorting.properties
+source_file = mozilla-en/toolkit/chrome/global/nsTreeSorting.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_customizeToolbar_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/customizeToolbar.properties
+source_file = mozilla-en/toolkit/chrome/global/customizeToolbar.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_intl_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/intl.properties
+source_file = mozilla-en/toolkit/chrome/global/intl.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_webapps_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/webapps.properties
+source_file = mozilla-en/toolkit/chrome/global/webapps.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_wizard_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/wizard.properties
+source_file = mozilla-en/toolkit/chrome/global/wizard.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_keys_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/keys.properties
+source_file = mozilla-en/toolkit/chrome/global/keys.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_dialog_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/dialog.properties
+source_file = mozilla-en/toolkit/chrome/global/dialog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_finddialog_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/finddialog.properties
+source_file = mozilla-en/toolkit/chrome/global/finddialog.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_config_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/config.properties
+source_file = mozilla-en/toolkit/chrome/global/config.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_xpinstall_xpinstall_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/xpinstall/xpinstall.properties
+source_file = mozilla-en/toolkit/chrome/global/xpinstall/xpinstall.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_regionNames_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/regionNames.properties
+source_file = mozilla-en/toolkit/chrome/global/regionNames.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_console_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/console.properties
+source_file = mozilla-en/toolkit/chrome/global/console.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_filepicker_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/filepicker.properties
+source_file = mozilla-en/toolkit/chrome/global/filepicker.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_passwordmgr_passwordmgr_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/passwordmgr/passwordmgr.properties
+source_file = mozilla-en/toolkit/chrome/passwordmgr/passwordmgr.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_search_search_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/search/search.properties
+source_file = mozilla-en/toolkit/chrome/search/search.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_alerts_notificationNames_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/alerts/notificationNames.properties
+source_file = mozilla-en/toolkit/chrome/alerts/notificationNames.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_places_places_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/places/places.properties
+source_file = mozilla-en/toolkit/chrome/places/places.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global-platform_win_intl_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global-platform/win/intl.properties
+source_file = mozilla-en/toolkit/chrome/global-platform/win/intl.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global-platform_win_platformKeys_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global-platform/win/platformKeys.properties
+source_file = mozilla-en/toolkit/chrome/global-platform/win/platformKeys.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global-platform_mac_intl_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global-platform/mac/intl.properties
+source_file = mozilla-en/toolkit/chrome/global-platform/mac/intl.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global-platform_mac_platformKeys_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global-platform/mac/platformKeys.properties
+source_file = mozilla-en/toolkit/chrome/global-platform/mac/platformKeys.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global-platform_unix_intl_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global-platform/unix/intl.properties
+source_file = mozilla-en/toolkit/chrome/global-platform/unix/intl.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global-platform_unix_platformKeys_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global-platform/unix/platformKeys.properties
+source_file = mozilla-en/toolkit/chrome/global-platform/unix/platformKeys.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_autoconfig_autoconfig_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/autoconfig/autoconfig.properties
+source_file = mozilla-en/toolkit/chrome/autoconfig/autoconfig.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_crashreporter_crashes_properties]
+file_filter = mozilla-<lang>/toolkit/crashreporter/crashes.properties
+source_file = mozilla-en/toolkit/crashreporter/crashes.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_security_caps_properties]
+file_filter = mozilla-<lang>/dom/chrome/security/caps.properties
+source_file = mozilla-en/dom/chrome/security/caps.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_security_csp_properties]
+file_filter = mozilla-<lang>/dom/chrome/security/csp.properties
+source_file = mozilla-en/dom/chrome/security/csp.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_appstrings_properties]
+file_filter = mozilla-<lang>/dom/chrome/appstrings.properties
+source_file = mozilla-en/dom/chrome/appstrings.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_xslt_xslt_properties]
+file_filter = mozilla-<lang>/dom/chrome/xslt/xslt.properties
+source_file = mozilla-en/dom/chrome/xslt/xslt.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_plugins_properties]
+file_filter = mozilla-<lang>/dom/chrome/plugins.properties
+source_file = mozilla-en/dom/chrome/plugins.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_global-strres_properties]
+file_filter = mozilla-<lang>/dom/chrome/global-strres.properties
+source_file = mozilla-en/dom/chrome/global-strres.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_accessibility_win_accessible_properties]
+file_filter = mozilla-<lang>/dom/chrome/accessibility/win/accessible.properties
+source_file = mozilla-en/dom/chrome/accessibility/win/accessible.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_accessibility_mac_accessible_properties]
+file_filter = mozilla-<lang>/dom/chrome/accessibility/mac/accessible.properties
+source_file = mozilla-en/dom/chrome/accessibility/mac/accessible.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_accessibility_AccessFu_properties]
+file_filter = mozilla-<lang>/dom/chrome/accessibility/AccessFu.properties
+source_file = mozilla-en/dom/chrome/accessibility/AccessFu.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_accessibility_unix_accessible_properties]
+file_filter = mozilla-<lang>/dom/chrome/accessibility/unix/accessible.properties
+source_file = mozilla-en/dom/chrome/accessibility/unix/accessible.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_nsWebBrowserPersist_properties]
+file_filter = mozilla-<lang>/dom/chrome/nsWebBrowserPersist.properties
+source_file = mozilla-en/dom/chrome/nsWebBrowserPersist.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_charsetTitles_properties]
+file_filter = mozilla-<lang>/dom/chrome/charsetTitles.properties
+source_file = mozilla-en/dom/chrome/charsetTitles.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_dom_dom_properties]
+file_filter = mozilla-<lang>/dom/chrome/dom/dom.properties
+source_file = mozilla-en/dom/chrome/dom/dom.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_htmlparser_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/htmlparser.properties
+source_file = mozilla-en/dom/chrome/layout/htmlparser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_xul_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/xul.properties
+source_file = mozilla-en/dom/chrome/layout/xul.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_css_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/css.properties
+source_file = mozilla-en/dom/chrome/layout/css.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_printing_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/printing.properties
+source_file = mozilla-en/dom/chrome/layout/printing.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_layout_errors_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/layout_errors.properties
+source_file = mozilla-en/dom/chrome/layout/layout_errors.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_xbl_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/xbl.properties
+source_file = mozilla-en/dom/chrome/layout/xbl.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_HtmlForm_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/HtmlForm.properties
+source_file = mozilla-en/dom/chrome/layout/HtmlForm.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_MediaDocument_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/MediaDocument.properties
+source_file = mozilla-en/dom/chrome/layout/MediaDocument.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_layout_xmlparser_properties]
+file_filter = mozilla-<lang>/dom/chrome/layout/xmlparser.properties
+source_file = mozilla-en/dom/chrome/layout/xmlparser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.dom_chrome_svg_svg_properties]
+file_filter = mozilla-<lang>/dom/chrome/svg/svg.properties
+source_file = mozilla-en/dom/chrome/svg/svg.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.netwerk_necko_properties]
+file_filter = mozilla-<lang>/netwerk/necko.properties
+source_file = mozilla-en/netwerk/necko.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_mozapps_help_welcome_xhtml]
+file_filter = mozilla-<lang>/toolkit/chrome/mozapps/help/welcome.xhtml
+source_file = mozilla-en/toolkit/chrome/mozapps/help/welcome.xhtml
+source_lang = en
+type = XHTML
+
