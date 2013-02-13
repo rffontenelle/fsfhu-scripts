@@ -79,12 +79,6 @@ source_file = mozilla-en/mail/chrome/messenger-smime/certFetchingStatus.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.mail_chrome_messenger-smime_msgCompSMIMEOverlay_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
-source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.mail_chrome_messenger-smime_msgReadSMIMEOverlay_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
 source_file = mozilla-en/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
@@ -250,12 +244,6 @@ type = DTD
 [mozilla-hu.mail_chrome_messenger_searchIntegrationMac_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger/searchIntegrationMac.dtd
 source_file = mozilla-en/mail/chrome/messenger/searchIntegrationMac.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_configEditorOverlay_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/configEditorOverlay.dtd
-source_file = mozilla-en/mail/chrome/messenger/configEditorOverlay.dtd
 source_lang = en
 type = DTD
 
@@ -586,12 +574,6 @@ type = DTD
 [mozilla-hu.mail_chrome_messenger_am-offline_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger/am-offline.dtd
 source_file = mozilla-en/mail/chrome/messenger/am-offline.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_searchIntegrationDefault_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/searchIntegrationDefault.dtd
-source_file = mozilla-en/mail/chrome/messenger/searchIntegrationDefault.dtd
 source_lang = en
 type = DTD
 
@@ -2038,12 +2020,6 @@ type = DTD
 [mozilla-hu.toolkit_chrome_global_mozilla_dtd]
 file_filter = mozilla-<lang>/toolkit/chrome/global/mozilla.dtd
 source_file = mozilla-en/toolkit/chrome/global/mozilla.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.toolkit_chrome_global_globalKeys_dtd]
-file_filter = mozilla-<lang>/toolkit/chrome/global/globalKeys.dtd
-source_file = mozilla-en/toolkit/chrome/global/globalKeys.dtd
 source_lang = en
 type = DTD
 
