@@ -3511,9 +3511,9 @@ source_file = mozilla-en/netwerk/necko.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.toolkit_chrome_mozapps_help_welcome_xhtml]
-file_filter = mozilla-<lang>/toolkit/chrome/mozapps/help/welcome.xhtml
-source_file = mozilla-en/toolkit/chrome/mozapps/help/welcome.xhtml
+[mozilla-hu.mail_chrome_messenger-smime_msgCompSMIMEOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
 source_lang = en
-type = XHTML
+type = DTD
 
