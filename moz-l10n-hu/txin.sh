@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for j in "dtd" "properties" "xhtml"; do
+for j in "dtd" "properties"; do
 #	echo "ma épp: $j";
 	case "$j" in
 	 "dtd")
@@ -8,9 +8,6 @@ for j in "dtd" "properties" "xhtml"; do
 	;;
 	 "properties")
 		TYPE="MOZILLAPROPERTIES";
-	;;
-	 "xhtml")
-		TYPE="XHTML";
 	;;
 	esac
 	for i in `find mozilla-en/ -name "*$j" | grep -v -f blacklist.txt`; do 
