@@ -13,7 +13,7 @@ for j in "dtd" "properties" "xhtml"; do
 		TYPE="XHTML";
 	;;
 	esac
-	for i in `find mozilla-en/ -name "*$j"`; do 
+	for i in `find mozilla-en/ -name "*$j" | grep -v -f blacklist.txt`; do 
 #		echo "kezd" ;
 		FILE=`echo $i | cut -d "/" -f "2-"`;
 		RES=`echo $i | cut -d "/" --output-delimiter="_" -f "2-" | tr . _`;
