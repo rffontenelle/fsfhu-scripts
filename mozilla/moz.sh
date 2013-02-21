@@ -12,10 +12,6 @@ while getopts 'p u' OPTION
 			mozunprep.pl <$i >$i.new;
 			mv $i.new $i;
 			done
-		for i in `find . -type f`;
-			do
-			dos2unix $i
-			done
 		;;
 	  ?)	echo "Usage: moz.sh -p|-u"
 		echo "-p: Comment out shortcut keys before translation"
