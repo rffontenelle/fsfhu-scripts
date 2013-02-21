@@ -3,8 +3,11 @@
 # Print commands before running them
 set -x
 
-PREFIX=/home/gabor/src/mozilla
-TPREFIX="$PREFIX"/new-aurora
+# Source the config file that contains the working directory names
+. ~/.config/moz2tx.cfg
+
+# Copy translatable files from the repos to this dir
+TPREFIX=$MOZTXDIR/mozilla-en
 
 mkdir -p "$TPREFIX"/mail/ ;
 cp -r "$PREFIX"/comm-aurora/mail/locales/en-US/* "$TPREFIX"/mail/ ;
