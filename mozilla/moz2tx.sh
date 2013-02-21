@@ -21,7 +21,7 @@ aurmozcp.sh
 
 # search for new files
 cd $MOZTXDIR;
-./txin.sh
+txin.sh
 
 # upload updated original files to transifex
 tx push -s
