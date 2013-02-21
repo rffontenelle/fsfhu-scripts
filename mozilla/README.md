@@ -2,7 +2,7 @@ Mik ezek a fájlok?
 ===
 
 Ezek szükségesek a Mozilla honosítási munkafolyamathoz.
-Kiindulási pont: a tárolók le vannak klónozva hg-ből. TODO: detektálni ezeket és 
+Kiindulási pont: a tárolók le vannak klónozva hg-ből. TODO: detektálni ezeket és szükség esetén klónozni.
 Lásd:
 https://developer.mozilla.org/en-US/docs/Localizing_with_Mercurial
 
