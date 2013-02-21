@@ -3517,3 +3517,57 @@ source_file = mozilla-en/mail/chrome/messenger-smime/msgCompSMIMEOverlay.dtd
 source_lang = en
 type = DTD
 
+[mozilla-hu.mobile_android_chrome_aboutPrivateBrowsing_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutPrivateBrowsing.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutPrivateBrowsing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutHealthReport_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutHealthReport.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutHealthReport.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_toolbox_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/toolbox.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/toolbox.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_inspector_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/inspector.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/inspector.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_connection-screen_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/connection-screen.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/connection-screen.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.dom_chrome_mathml_mathml_properties]
+file_filter = mozilla-<lang>/dom/chrome/mathml/mathml.properties
+source_file = mozilla-en/dom/chrome/mathml/mathml.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_profiler_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/profiler.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/profiler.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_toolbox_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/toolbox.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/toolbox.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_connection-screen_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/connection-screen.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/connection-screen.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
