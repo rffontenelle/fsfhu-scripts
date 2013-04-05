@@ -3571,3 +3571,33 @@ source_file = mozilla-en/browser/chrome/browser/devtools/connection-screen.prope
 source_lang = en
 type = MOZILLAPROPERTIES
 
+[mozilla-hu.browser_chrome_browser_devtools_profiler_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/profiler.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/profiler.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_pippki_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/pippki.properties
+source_file = mozilla-en/mobile/android/chrome/pippki.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_alerts_alert_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/alerts/alert.dtd
+source_file = mozilla-en/toolkit/chrome/alerts/alert.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_font-inspector_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/font-inspector.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/font-inspector.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_colors_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/colors.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/colors.dtd
+source_lang = en
+type = DTD
+
