@@ -14,10 +14,10 @@ To use, copy the scripts to ~/bin, cfg files to ~/.config.
 Intended workflow is:
 * Create an own Mozilla-LL project on Transifex
 * Fill it up with English strings from aurora by running moz2tx.sh (this is a slow process, go have lunch)
-* Fill it up with your current translation. This is a one-off operation:
-** copy the aurora repository of your language to MOZTXDIR/mozilla-LL
-** `cd MOZTXDIR/mozilla-LL ; moz.sh -p` - this prepares the file for the workflow involving moz.sh - some languages may want to omit that part, but I'd not recommend this ;)
-** `tx push -l LL` from the MOZTXDIR
+	* Fill it up with your current translation. This is a one-off operation:
+* copy the aurora repository of your language to MOZTXDIR/mozilla-LL
+	* `cd MOZTXDIR/mozilla-LL ; moz.sh -p` - this prepares the file for the workflow involving moz.sh - some languages may want to omit that part, but I'd not recommend this ;)
+	* `tx push -l LL` from the MOZTXDIR
 * Head on to Transifex and translate! Don't worry if you see resources with > 0 untranslated strings and 0 words left - this is a reported bug: if a string already has an empty translation, it will show up like that and cannot be edited. Because of the use of moz.sh, you need to be careful to always copy the hot key ID's and change only the letter after the underscore, otherwise moz.sh will be unable to undo the change and your translation will be broken.
 * After you finished translation, you need to download them into the repository directory with `tx pull -l LL` in MOZTXDIR.
 * Run moz.sh -u in the repository directory
