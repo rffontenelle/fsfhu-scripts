@@ -11,9 +11,9 @@ set -x
 
 # update repos
 cd $PREFIX/comm-aurora;
-#hg pull && hg update --check
+hg pull && hg update --check
 cd ../mozilla-aurora
-#hg pull && hg update --check
+hg pull && hg update --check
 cd ../
 
 # copy translatable strings and prepare them
