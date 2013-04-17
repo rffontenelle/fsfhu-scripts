@@ -21,7 +21,7 @@ Intended workflow is:
 * Head on to Transifex and translate! Don't worry if you see resources with > 0 untranslated strings and 0 words left - this is a reported bug: if a string already has an empty translation, it will show up like that and cannot be edited. Because of the use of moz.sh, you need to be careful to always copy the hot key ID's and change only the letter after the underscore, otherwise moz.sh will be unable to undo the change and your translation will be broken.
 * After you finished translation, you need to download them into the repository directory with `tx pull -l LL` in MOZTXDIR.
 * Run moz.sh -u in the repository directory
-* Run hg diff and review changes. Export from Transifex messes up several characters: & <> is replaced by HTML-entities and UTF-8 escapes (\uxxxx is replaced by the respective character). Also some dtd files use ' as delimiter instead of the usual ", these are replaced by ". All these must be undone manually, or you can run ` sed -i -e 's/&amp;/\&/g' -e 's/&gt;/>/g' -e 's/&lt;/</g' `
+* Run hg diff and review changes. Export from Transifex messes up several characters: & <> is replaced by HTML-entities and UTF-8 escapes (\uxxxx is replaced by the respective character), and \ characters are doubled. Also some dtd files use ' as delimiter instead of the usual ", these are replaced by ". All these must be undone manually, or you can run ` sed -i -e 's/&amp;/\&/g' -e 's/&gt;/>/g' -e 's/&lt;/</g' `
 and undo the side effects of _that_ - did I mention alpha quality process?
 Still, once these are sorted out on the Transifex side, it will be a joy to use, but we are not there yet.
 
