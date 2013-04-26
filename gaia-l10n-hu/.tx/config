@@ -163,12 +163,6 @@ source_file = gaia-en-US/shared/permissions/permissions.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n.sharedbrandingofficial]
-file_filter = gaia-<lang>/shared/branding/official/branding.properties
-source_file = gaia-en-US/shared/branding/official/branding.properties
-source_lang = en-US
-type = MOZILLAPROPERTIES
-
 [gaia-l10n.sharedbrandingunofficial]
 file_filter = gaia-<lang>/shared/branding/unofficial/branding.properties
 source_file = gaia-en-US/shared/branding/unofficial/branding.properties
@@ -190,5 +184,11 @@ type = MOZILLAPROPERTIES
 [gaia-l10n.appscommunicationsdialershared]
 file_filter = gaia-<lang>/apps/communications/dialer/shared.properties
 source_file = gaia-en-US/apps/communications/dialer/shared.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n.externaldogfoodappspackstubtest]
+file_filter = gaia-<lang>/external-dogfood-apps/packstubtest/packstubtest.properties
+source_file = gaia-en-US/external-dogfood-apps/packstubtest/packstubtest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
