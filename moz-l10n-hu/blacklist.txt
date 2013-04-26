@@ -1,3 +1,0 @@
-mozilla-en/mail/chrome/messenger/configEditorOverlay.dtd
-mozilla-en/mail/chrome/messenger/searchIntegrationDefault.dtd
-mozilla-en/toolkit/chrome/global/globalKeys.dtd
