@@ -1,12 +1,6 @@
 [main]
 host = https://www.transifex.com
 
-[mozilla-hu.embedding_android_android_strings_dtd]
-file_filter = mozilla-<lang>/embedding/android/android_strings.dtd
-source_file = mozilla-en/embedding/android/android_strings.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.security_manager_chrome_pippki_certManager_dtd]
 file_filter = mozilla-<lang>/security/manager/chrome/pippki/certManager.dtd
 source_file = mozilla-en/security/manager/chrome/pippki/certManager.dtd
@@ -1417,84 +1411,6 @@ source_file = mozilla-en/mobile/overrides/netError.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.mobile_xul_chrome_about_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/about.dtd
-source_file = mozilla-en/mobile/xul/chrome/about.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_feedback_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/feedback.dtd
-source_file = mozilla-en/mobile/xul/chrome/feedback.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_webapps_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/webapps.dtd
-source_file = mozilla-en/mobile/xul/chrome/webapps.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_browser_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/browser.dtd
-source_file = mozilla-en/mobile/xul/chrome/browser.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_preferences_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/preferences.dtd
-source_file = mozilla-en/mobile/xul/chrome/preferences.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_phishing_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/phishing.dtd
-source_file = mozilla-en/mobile/xul/chrome/phishing.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_sync_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/sync.dtd
-source_file = mozilla-en/mobile/xul/chrome/sync.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_aboutHome_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/aboutHome.dtd
-source_file = mozilla-en/mobile/xul/chrome/aboutHome.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_config_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/config.dtd
-source_file = mozilla-en/mobile/xul/chrome/config.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_checkbox_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/checkbox.dtd
-source_file = mozilla-en/mobile/xul/chrome/checkbox.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_aboutCertError_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/aboutCertError.dtd
-source_file = mozilla-en/mobile/xul/chrome/aboutCertError.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_prompt_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/prompt.dtd
-source_file = mozilla-en/mobile/xul/chrome/prompt.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_xul_chrome_notification_dtd]
-file_filter = mozilla-<lang>/mobile/xul/chrome/notification.dtd
-source_file = mozilla-en/mobile/xul/chrome/notification.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.mobile_android_chrome_about_dtd]
 file_filter = mozilla-<lang>/mobile/android/chrome/about.dtd
 source_file = mozilla-en/mobile/android/chrome/about.dtd
@@ -1534,12 +1450,6 @@ type = DTD
 [mozilla-hu.mobile_android_chrome_sync_dtd]
 file_filter = mozilla-<lang>/mobile/android/chrome/sync.dtd
 source_file = mozilla-en/mobile/android/chrome/sync.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mobile_android_chrome_aboutHome_dtd]
-file_filter = mozilla-<lang>/mobile/android/chrome/aboutHome.dtd
-source_file = mozilla-en/mobile/android/chrome/aboutHome.dtd
 source_lang = en
 type = DTD
 
@@ -2881,24 +2791,6 @@ source_file = mozilla-en/mobile/overrides/passwordmgr.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.mobile_xul_chrome_localepicker_properties]
-file_filter = mozilla-<lang>/mobile/xul/chrome/localepicker.properties
-source_file = mozilla-en/mobile/xul/chrome/localepicker.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.mobile_xul_chrome_sync_properties]
-file_filter = mozilla-<lang>/mobile/xul/chrome/sync.properties
-source_file = mozilla-en/mobile/xul/chrome/sync.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.mobile_xul_chrome_browser_properties]
-file_filter = mozilla-<lang>/mobile/xul/chrome/browser.properties
-source_file = mozilla-en/mobile/xul/chrome/browser.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.mobile_android_chrome_aboutAddons_properties]
 file_filter = mozilla-<lang>/mobile/android/chrome/aboutAddons.properties
 source_file = mozilla-en/mobile/android/chrome/aboutAddons.properties
@@ -2938,12 +2830,6 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.mobile_android_chrome_config_properties]
 file_filter = mozilla-<lang>/mobile/android/chrome/config.properties
 source_file = mozilla-en/mobile/android/chrome/config.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.mobile_android_chrome_aboutApps_properties]
-file_filter = mozilla-<lang>/mobile/android/chrome/aboutApps.properties
-source_file = mozilla-en/mobile/android/chrome/aboutApps.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
@@ -3160,12 +3046,6 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.toolkit_chrome_global_printdialog_properties]
 file_filter = mozilla-<lang>/toolkit/chrome/global/printdialog.properties
 source_file = mozilla-en/toolkit/chrome/global/printdialog.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.toolkit_chrome_global_downloadProgress_properties]
-file_filter = mozilla-<lang>/toolkit/chrome/global/downloadProgress.properties
-source_file = mozilla-en/toolkit/chrome/global/downloadProgress.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
@@ -3600,4 +3480,52 @@ file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/colors.dtd
 source_file = mozilla-en/mail/chrome/messenger/preferences/colors.dtd
 source_lang = en
 type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutHealthReport_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutHealthReport.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutHealthReport.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_netmonitor_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/netmonitor.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/netmonitor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_VariablesView_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/VariablesView.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/VariablesView.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.dom_chrome_security_security_properties]
+file_filter = mozilla-<lang>/dom/chrome/security/security.properties
+source_file = mozilla-en/dom/chrome/security/security.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_handling_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/handling.properties
+source_file = mozilla-en/mobile/android/chrome/handling.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_payments_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/payments.properties
+source_file = mozilla-en/mobile/android/chrome/payments.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_appcacheutils_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/appcacheutils.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/appcacheutils.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_netmonitor_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/netmonitor.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/netmonitor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
 
