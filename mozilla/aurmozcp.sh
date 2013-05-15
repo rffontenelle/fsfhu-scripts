@@ -9,6 +9,9 @@ set -x
 # Copy translatable files from the repos to this dir
 TPREFIX=$MOZTXDIR/mozilla-en
 
+# Remove all the previous files, this is needed for detecting the obsolete files in txin.sh
+rm -r $TPREFIX;
+
 mkdir -p "$TPREFIX"/mail/ ;
 cp -r "$PREFIX"/comm-aurora/mail/locales/en-US/* "$TPREFIX"/mail/ ;
 

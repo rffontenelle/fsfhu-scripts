@@ -21,3 +21,11 @@ for j in "dtd" "properties"; do
 	done
 done
 
+# Remove obsolete resources, i.e. files no longer present in mozilla-en
+for i in `grep source_file $MOZTXDIR/.tx/config | cut -d " " -f 3 `; do
+	if [ ! -f $i ]; then 
+		RES=`echo $i | cut -d "/" --output-delimiter="_" -f "2-" | tr . _`;
+		# Delete resources ruthlessly, i.e. with all existing translations
+		tx delete -f -r mozilla-"$LL"."$RES" ;
+	fi
+done
