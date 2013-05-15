@@ -1,0 +1,224 @@
+diff --git a/moz-l10n-hu/.tx/config b/moz-l10n-hu/.tx/config
+index fa71c10..06255f7 100644
+--- a/moz-l10n-hu/.tx/config
++++ b/moz-l10n-hu/.tx/config
+@@ -37,12 +37,6 @@ source_file = mozilla-en/mail/chrome/overrides/settingsChange.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mail_chrome_overrides_netError_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/overrides/netError.dtd
+-source_file = mozilla-en/mail/chrome/overrides/netError.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mail_chrome_messenger-newsblog_feed-subscriptions_dtd]
+ file_filter = mozilla-<lang>/mail/chrome/messenger-newsblog/feed-subscriptions.dtd
+ source_file = mozilla-en/mail/chrome/messenger-newsblog/feed-subscriptions.dtd
+@@ -85,12 +79,6 @@ source_file = mozilla-en/mail/chrome/messenger/am-advanced.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mail_chrome_messenger_sanitize_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/messenger/sanitize.dtd
+-source_file = mozilla-en/mail/chrome/messenger/sanitize.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mail_chrome_messenger_folderpane_dtd]
+ file_filter = mozilla-<lang>/mail/chrome/messenger/folderpane.dtd
+ source_file = mozilla-en/mail/chrome/messenger/folderpane.dtd
+@@ -193,18 +181,6 @@ source_file = mozilla-en/mail/chrome/messenger/addressbook/pref-directory.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mail_chrome_messenger_addressbook_abCardOverlay_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abCardOverlay.dtd
+-source_file = mozilla-en/mail/chrome/messenger/addressbook/abCardOverlay.dtd
+-source_lang = en
+-type = DTD
+-
+-[mozilla-hu.mail_chrome_messenger_addressbook_abMainWindow_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abMainWindow.dtd
+-source_file = mozilla-en/mail/chrome/messenger/addressbook/abMainWindow.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mail_chrome_messenger_addressbook_abAddressBookNameDialog_dtd]
+ file_filter = mozilla-<lang>/mail/chrome/messenger/addressbook/abAddressBookNameDialog.dtd
+ source_file = mozilla-en/mail/chrome/messenger/addressbook/abAddressBookNameDialog.dtd
+@@ -565,12 +541,6 @@ source_file = mozilla-en/mail/chrome/messenger/mailOverlay.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mail_chrome_messenger_am-offline_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/messenger/am-offline.dtd
+-source_file = mozilla-en/mail/chrome/messenger/am-offline.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mail_chrome_messenger_systemIntegrationDialog_dtd]
+ file_filter = mozilla-<lang>/mail/chrome/messenger/systemIntegrationDialog.dtd
+ source_file = mozilla-en/mail/chrome/messenger/systemIntegrationDialog.dtd
+@@ -715,12 +685,6 @@ source_file = mozilla-en/mail/chrome/messenger/am-identities-list.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mail_chrome_messenger_aboutDialog_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/messenger/aboutDialog.dtd
+-source_file = mozilla-en/mail/chrome/messenger/aboutDialog.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mail_chrome_messenger_subscribe_dtd]
+ file_filter = mozilla-<lang>/mail/chrome/messenger/subscribe.dtd
+ source_file = mozilla-en/mail/chrome/messenger/subscribe.dtd
+@@ -751,12 +715,6 @@ source_file = mozilla-en/mail/chrome/messenger/markByDate.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mail_chrome_messenger_AccountWizard_dtd]
+-file_filter = mozilla-<lang>/mail/chrome/messenger/AccountWizard.dtd
+-source_file = mozilla-en/mail/chrome/messenger/AccountWizard.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mail_chrome_messenger_am-serverwithnoidentities_dtd]
+ file_filter = mozilla-<lang>/mail/chrome/messenger/am-serverwithnoidentities.dtd
+ source_file = mozilla-en/mail/chrome/messenger/am-serverwithnoidentities.dtd
+@@ -1051,18 +1009,6 @@ source_file = mozilla-en/browser/chrome/overrides/settingsChange.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.browser_chrome_overrides_netError_dtd]
+-file_filter = mozilla-<lang>/browser/chrome/overrides/netError.dtd
+-source_file = mozilla-en/browser/chrome/overrides/netError.dtd
+-source_lang = en
+-type = DTD
+-
+-[mozilla-hu.browser_chrome_browser_sanitize_dtd]
+-file_filter = mozilla-<lang>/browser/chrome/browser/sanitize.dtd
+-source_file = mozilla-en/browser/chrome/browser/sanitize.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.browser_chrome_browser_devtools_webConsole_dtd]
+ file_filter = mozilla-<lang>/browser/chrome/browser/devtools/webConsole.dtd
+ source_file = mozilla-en/browser/chrome/browser/devtools/webConsole.dtd
+@@ -1141,12 +1087,6 @@ source_file = mozilla-en/browser/chrome/browser/pageInfo.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.browser_chrome_browser_syncSetup_dtd]
+-file_filter = mozilla-<lang>/browser/chrome/browser/syncSetup.dtd
+-source_file = mozilla-en/browser/chrome/browser/syncSetup.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.browser_chrome_browser_syncKey_dtd]
+ file_filter = mozilla-<lang>/browser/chrome/browser/syncKey.dtd
+ source_file = mozilla-en/browser/chrome/browser/syncKey.dtd
+@@ -1261,12 +1201,6 @@ source_file = mozilla-en/browser/chrome/browser/preferences/fonts.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.browser_chrome_browser_preferences_aboutPermissions_dtd]
+-file_filter = mozilla-<lang>/browser/chrome/browser/preferences/aboutPermissions.dtd
+-source_file = mozilla-en/browser/chrome/browser/preferences/aboutPermissions.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.browser_chrome_browser_preferences_languages_dtd]
+ file_filter = mozilla-<lang>/browser/chrome/browser/preferences/languages.dtd
+ source_file = mozilla-en/browser/chrome/browser/preferences/languages.dtd
+@@ -1279,12 +1213,6 @@ source_file = mozilla-en/browser/chrome/browser/preferences/main.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.browser_chrome_browser_preferences_privacy_dtd]
+-file_filter = mozilla-<lang>/browser/chrome/browser/preferences/privacy.dtd
+-source_file = mozilla-en/browser/chrome/browser/preferences/privacy.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.browser_chrome_browser_preferences_selectBookmark_dtd]
+ file_filter = mozilla-<lang>/browser/chrome/browser/preferences/selectBookmark.dtd
+ source_file = mozilla-en/browser/chrome/browser/preferences/selectBookmark.dtd
+@@ -1363,12 +1291,6 @@ source_file = mozilla-en/browser/chrome/browser/syncBrand.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.browser_chrome_browser_aboutDialog_dtd]
+-file_filter = mozilla-<lang>/browser/chrome/browser/aboutDialog.dtd
+-source_file = mozilla-en/browser/chrome/browser/aboutDialog.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.browser_chrome_browser_places_places_dtd]
+ file_filter = mozilla-<lang>/browser/chrome/browser/places/places.dtd
+ source_file = mozilla-en/browser/chrome/browser/places/places.dtd
+@@ -1405,12 +1327,6 @@ source_file = mozilla-en/browser/feedback/main.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mobile_overrides_netError_dtd]
+-file_filter = mozilla-<lang>/mobile/overrides/netError.dtd
+-source_file = mozilla-en/mobile/overrides/netError.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mobile_android_chrome_about_dtd]
+ file_filter = mozilla-<lang>/mobile/android/chrome/about.dtd
+ source_file = mozilla-en/mobile/android/chrome/about.dtd
+@@ -1489,12 +1405,6 @@ source_file = mozilla-en/mobile/android/chrome/notification.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.mobile_android_base_sync_strings_dtd]
+-file_filter = mozilla-<lang>/mobile/android/base/sync_strings.dtd
+-source_file = mozilla-en/mobile/android/base/sync_strings.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.mobile_android_base_android_strings_dtd]
+ file_filter = mozilla-<lang>/mobile/android/base/android_strings.dtd
+ source_file = mozilla-en/mobile/android/base/android_strings.dtd
+@@ -1513,12 +1423,6 @@ source_file = mozilla-en/calendar/chrome/sunbird/menuOverlay.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.calendar_chrome_sunbird_aboutDialog_dtd]
+-file_filter = mozilla-<lang>/calendar/chrome/sunbird/aboutDialog.dtd
+-source_file = mozilla-en/calendar/chrome/sunbird/aboutDialog.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.calendar_chrome_calendar_calendar-occurrence-prompt_dtd]
+ file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-occurrence-prompt.dtd
+ source_file = mozilla-en/calendar/chrome/calendar/calendar-occurrence-prompt.dtd
+@@ -1633,12 +1537,6 @@ source_file = mozilla-en/calendar/chrome/calendar/providers/gdata/gdata.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.calendar_chrome_calendar_calendar-event-dialog_dtd]
+-file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-event-dialog.dtd
+-source_file = mozilla-en/calendar/chrome/calendar/calendar-event-dialog.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.calendar_chrome_lightning_lightning-toolbar_dtd]
+ file_filter = mozilla-<lang>/calendar/chrome/lightning/lightning-toolbar.dtd
+ source_file = mozilla-en/calendar/chrome/lightning/lightning-toolbar.dtd
+@@ -1711,12 +1609,6 @@ source_file = mozilla-en/toolkit/chrome/mozapps/downloads/downloads.dtd
+ source_lang = en
+ type = DTD
+ 
+-[mozilla-hu.toolkit_chrome_mozapps_plugins_plugins_dtd]
+-file_filter = mozilla-<lang>/toolkit/chrome/mozapps/plugins/plugins.dtd
+-source_file = mozilla-en/toolkit/chrome/mozapps/plugins/plugins.dtd
+-source_lang = en
+-type = DTD
+-
+ [mozilla-hu.toolkit_chrome_mozapps_extensions_selectAddons_dtd]
+ file_filter = mozilla-<lang>/toolkit/chrome/mozapps/extensions/selectAddons.dtd
+ source_file = mozilla-en/toolkit/chrome/mozapps/extensions/selectAddons.dtd
