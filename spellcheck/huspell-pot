@@ -1,0 +1,23 @@
+#!/bin/sh
+
+tr -d "_&" | \
+awk '
+	BEGIN {
+		do_print = 1;
+		count = 0;
+	}
+	/^msgid/ {
+		do_print = 1;
+		count = count + 1;
+	}
+	/^msgctxt/ {
+		do_print = 0;
+	}
+	/^msgstr/ {
+		do_print = 0;
+	}
+	//	{
+		if (do_print && count > 2) print $0;
+	}
+' | grep -v '^#' | sed -e 's/^msgid "//' -e 's/^"//' -e 's/"$//' | \
+sed 's/\\.//g' | hunspell -d en_US -l | sort -u

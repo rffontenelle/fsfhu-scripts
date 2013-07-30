@@ -1,0 +1,23 @@
+#!/bin/sh
+
+msgattrib --no-wrap | \
+awk '
+	BEGIN {
+		do_print = 0;
+		count = 1;
+	}
+	/^msgid/ {
+		do_print = 0;
+	}
+	/^msgctxt/ {
+		do_print = 0;
+	}
+	/^msgstr/ {
+		do_print = 1;
+		count = count + 1;
+	}
+	//	{
+		if (do_print && count > 2) print $0;
+	}
+' | sed -e 's/^#.*//g' -e 's/^msgstr\[*.*\]* "//' -e 's/^"//' -e 's/"$//' -e 's/[_&~]//g' -e 's/\\./ /g' -e 's/\;/ /g' -e 's/^@@.*//g' -e 's/--[[:alpha:]]*//g' -r -e 's#(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\.:-]*;)+# #g;' | \
+hunspell -d hu_HU -l | sort -u | pr -3at
