@@ -7,12 +7,6 @@ source_file = mozilla-en/security/manager/chrome/pippki/certManager.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.security_manager_chrome_pippki_validation_dtd]
-file_filter = mozilla-<lang>/security/manager/chrome/pippki/validation.dtd
-source_file = mozilla-en/security/manager/chrome/pippki/validation.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.security_manager_chrome_pippki_pippki_dtd]
 file_filter = mozilla-<lang>/security/manager/chrome/pippki/pippki.dtd
 source_file = mozilla-en/security/manager/chrome/pippki/pippki.dtd
@@ -793,12 +787,6 @@ source_file = mozilla-en/mail/chrome/communicator/utilityOverlay.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.mail_feedback_main_dtd]
-file_filter = mozilla-<lang>/mail/feedback/main.dtd
-source_file = mozilla-en/mail/feedback/main.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.editor_ui_chrome_composer_pref-toolbars_dtd]
 file_filter = mozilla-<lang>/editor/ui/chrome/composer/pref-toolbars.dtd
 source_file = mozilla-en/editor/ui/chrome/composer/pref-toolbars.dtd
@@ -1039,12 +1027,6 @@ source_file = mozilla-en/editor/ui/chrome/dialogs/EditorSpellCheck.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.browser_webapprt_webapp_dtd]
-file_filter = mozilla-<lang>/browser/webapprt/webapp.dtd
-source_file = mozilla-en/browser/webapprt/webapp.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.browser_chrome_overrides_settingsChange_dtd]
 file_filter = mozilla-<lang>/browser/chrome/overrides/settingsChange.dtd
 source_file = mozilla-en/browser/chrome/overrides/settingsChange.dtd
@@ -1231,12 +1213,6 @@ source_file = mozilla-en/browser/chrome/browser/preferences/content.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.browser_chrome_browser_preferences_advanced-scripts_dtd]
-file_filter = mozilla-<lang>/browser/chrome/browser/preferences/advanced-scripts.dtd
-source_file = mozilla-en/browser/chrome/browser/preferences/advanced-scripts.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.browser_chrome_browser_preferences_tabs_dtd]
 file_filter = mozilla-<lang>/browser/chrome/browser/preferences/tabs.dtd
 source_file = mozilla-en/browser/chrome/browser/preferences/tabs.dtd
@@ -1399,12 +1375,6 @@ source_file = mozilla-en/browser/chrome/browser/aboutCertError.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.browser_feedback_main_dtd]
-file_filter = mozilla-<lang>/browser/feedback/main.dtd
-source_file = mozilla-en/browser/feedback/main.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.mobile_overrides_netError_dtd]
 file_filter = mozilla-<lang>/mobile/overrides/netError.dtd
 source_file = mozilla-en/mobile/overrides/netError.dtd
@@ -1528,18 +1498,6 @@ type = DTD
 [mozilla-hu.calendar_chrome_calendar_calendar_dtd]
 file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar.dtd
 source_file = mozilla-en/calendar/chrome/calendar/calendar.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.calendar_chrome_calendar_preferences_advanced_dtd]
-file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/advanced.dtd
-source_file = mozilla-en/calendar/chrome/calendar/preferences/advanced.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.calendar_chrome_calendar_preferences_connection_dtd]
-file_filter = mozilla-<lang>/calendar/chrome/calendar/preferences/connection.dtd
-source_file = mozilla-en/calendar/chrome/calendar/preferences/connection.dtd
 source_lang = en
 type = DTD
 
@@ -2443,12 +2401,6 @@ source_file = mozilla-en/mail/chrome/messenger-mapi/mapi.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.mail_feedback_main_properties]
-file_filter = mozilla-<lang>/mail/feedback/main.properties
-source_file = mozilla-en/mail/feedback/main.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.mail_installer_override_properties]
 file_filter = mozilla-<lang>/mail/installer/override.properties
 source_file = mozilla-en/mail/installer/override.properties
@@ -2470,12 +2422,6 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.editor_ui_chrome_composer_editor_properties]
 file_filter = mozilla-<lang>/editor/ui/chrome/composer/editor.properties
 source_file = mozilla-en/editor/ui/chrome/composer/editor.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.browser_webapprt_webapp_properties]
-file_filter = mozilla-<lang>/browser/webapprt/webapp.properties
-source_file = mozilla-en/browser/webapprt/webapp.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
@@ -2683,12 +2629,6 @@ source_file = mozilla-en/browser/chrome/browser/syncGenericChange.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.browser_feedback_main_properties]
-file_filter = mozilla-<lang>/browser/feedback/main.properties
-source_file = mozilla-en/browser/feedback/main.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.browser_pdfviewer_viewer_properties]
 file_filter = mozilla-<lang>/browser/pdfviewer/viewer.properties
 source_file = mozilla-en/browser/pdfviewer/viewer.properties
@@ -2698,12 +2638,6 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.browser_pdfviewer_chrome_properties]
 file_filter = mozilla-<lang>/browser/pdfviewer/chrome.properties
 source_file = mozilla-en/browser/pdfviewer/chrome.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.browser_webapp-uninstaller_webapp-uninstaller_properties]
-file_filter = mozilla-<lang>/browser/webapp-uninstaller/webapp-uninstaller.properties
-source_file = mozilla-en/browser/webapp-uninstaller/webapp-uninstaller.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
@@ -3022,12 +2956,6 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.toolkit_chrome_global_devtools_debugger_properties]
 file_filter = mozilla-<lang>/toolkit/chrome/global/devtools/debugger.properties
 source_file = mozilla-en/toolkit/chrome/global/devtools/debugger.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.toolkit_chrome_global_aboutRights_properties]
-file_filter = mozilla-<lang>/toolkit/chrome/global/aboutRights.properties
-source_file = mozilla-en/toolkit/chrome/global/aboutRights.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
@@ -3538,6 +3466,18 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.mail_chrome_messenger_folderWidgets_properties]
 file_filter = mozilla-<lang>/mail/chrome/messenger/folderWidgets.properties
 source_file = mozilla-en/mail/chrome/messenger/folderWidgets.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_resetProfile_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/resetProfile.properties
+source_file = mozilla-en/toolkit/chrome/global/resetProfile.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_sitePermissions_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/sitePermissions.properties
+source_file = mozilla-en/browser/chrome/browser/sitePermissions.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
