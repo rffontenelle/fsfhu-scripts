@@ -19,5 +19,5 @@ awk '
 	//	{
 		if (do_print && count > 2) print $0;
 	}
-' | sed -e 's/^#.*//g' -e 's/^msgstr\[*.*\]* "//' -e 's/^"//' -e 's/"$//' -e 's/[_&~]//g' -e 's/\\./ /g' -e 's/\;/ /g' -e 's/^@@.*//g' -e 's/--[[:alpha:]]*//g' -r -e 's#(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\.:-]*;)+# #g;' | \
+' | sed -e 's/^#.*//g' -e 's/^msgstr\[*.*\]* "//' -e 's/^"//' -e 's/"$//' -e 's/[_&~]//g' -e 's/\\./ /g' -e 's/\;/ /g' -e 's/^@@.*//g' -e "s/'//g" -e 's/--[[:alpha:]]*//g' -r -e 's#(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\.:-]*;)+# #g;' | \
 hunspell -d hu_HU -l | sort -u | pr -3at
