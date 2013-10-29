@@ -31,12 +31,6 @@ source_file = mozilla-en/mail/chrome/overrides/settingsChange.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.mail_chrome_overrides_netError_dtd]
-file_filter = mozilla-<lang>/mail/chrome/overrides/netError.dtd
-source_file = mozilla-en/mail/chrome/overrides/netError.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.mail_chrome_messenger-newsblog_feed-subscriptions_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger-newsblog/feed-subscriptions.dtd
 source_file = mozilla-en/mail/chrome/messenger-newsblog/feed-subscriptions.dtd
@@ -64,12 +58,6 @@ type = DTD
 [mozilla-hu.mail_chrome_messenger-smime_certFetchingStatus_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger-smime/certFetchingStatus.dtd
 source_file = mozilla-en/mail/chrome/messenger-smime/certFetchingStatus.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger-smime_msgReadSMIMEOverlay_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
-source_file = mozilla-en/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
 source_lang = en
 type = DTD
 
@@ -3478,6 +3466,168 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.browser_chrome_browser_sitePermissions_properties]
 file_filter = mozilla-<lang>/browser/chrome/browser/sitePermissions.properties
 source_file = mozilla-en/browser/chrome/browser/sitePermissions.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_aboutNetworking_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/aboutNetworking.dtd
+source_file = mozilla-en/toolkit/chrome/global/aboutNetworking.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_app-manager_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/app-manager.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/app-manager.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger-smime_msgReadSMIMEOverlay_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
+source_file = mozilla-en/mail/chrome/messenger-smime/msgReadSMIMEOverlay.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_app-manager_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/app-manager.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/app-manager.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_metro_chrome_sync_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/sync.dtd
+source_file = mozilla-en/browser/metro/chrome/sync.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_browser_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/browser.dtd
+source_file = mozilla-en/browser/metro/chrome/browser.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_preferences_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/preferences.dtd
+source_file = mozilla-en/browser/metro/chrome/preferences.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_phishing_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/phishing.dtd
+source_file = mozilla-en/browser/metro/chrome/phishing.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_aboutCertError_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/aboutCertError.dtd
+source_file = mozilla-en/browser/metro/chrome/aboutCertError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_aboutAddons_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/aboutAddons.dtd
+source_file = mozilla-en/browser/metro/chrome/aboutAddons.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_config_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/config.dtd
+source_file = mozilla-en/browser/metro/chrome/config.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_aboutPanel_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/aboutPanel.dtd
+source_file = mozilla-en/browser/metro/chrome/aboutPanel.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_checkbox_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/checkbox.dtd
+source_file = mozilla-en/browser/metro/chrome/checkbox.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_sync_properties]
+file_filter = mozilla-<lang>/browser/metro/chrome/sync.properties
+source_file = mozilla-en/browser/metro/chrome/sync.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_metro_chrome_browser_properties]
+file_filter = mozilla-<lang>/browser/metro/chrome/browser.properties
+source_file = mozilla-en/browser/metro/chrome/browser.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_metro_chrome_passwordmgr_properties]
+file_filter = mozilla-<lang>/browser/metro/chrome/passwordmgr.properties
+source_file = mozilla-en/browser/metro/chrome/passwordmgr.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_metro_chrome_crashprompt_properties]
+file_filter = mozilla-<lang>/browser/metro/chrome/crashprompt.properties
+source_file = mozilla-en/browser/metro/chrome/crashprompt.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_aboutHome_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutHome.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutHome.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_shadereditor_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/shadereditor.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/shadereditor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_overrides_netError_dtd]
+file_filter = mozilla-<lang>/mail/chrome/overrides/netError.dtd
+source_file = mozilla-en/mail/chrome/overrides/netError.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_devtools_dbgserver_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/devtools/dbgserver.dtd
+source_file = mozilla-en/mail/chrome/messenger/devtools/dbgserver.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.webapprt_webapprt_webapp_dtd]
+file_filter = mozilla-<lang>/webapprt/webapprt/webapp.dtd
+source_file = mozilla-en/webapprt/webapprt/webapp.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.webapprt_webapprt_getUserMediaDialog_dtd]
+file_filter = mozilla-<lang>/webapprt/webapprt/getUserMediaDialog.dtd
+source_file = mozilla-en/webapprt/webapprt/getUserMediaDialog.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_shadereditor_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/shadereditor.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/shadereditor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_devtools_dbgserver_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/devtools/dbgserver.properties
+source_file = mozilla-en/mail/chrome/messenger/devtools/dbgserver.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.webapprt_webapp-uninstaller_webapp-uninstaller_properties]
+file_filter = mozilla-<lang>/webapprt/webapp-uninstaller/webapp-uninstaller.properties
+source_file = mozilla-en/webapprt/webapp-uninstaller/webapp-uninstaller.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.webapprt_webapprt_webapp_properties]
+file_filter = mozilla-<lang>/webapprt/webapprt/webapp.properties
+source_file = mozilla-en/webapprt/webapprt/webapp.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
