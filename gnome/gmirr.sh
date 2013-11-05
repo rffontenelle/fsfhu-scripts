@@ -182,7 +182,7 @@ do
 
 	# do not create several dirs with the gnome-* names
 	OLDNAME=$ITEM
-	SHORTNAME=`echo $ITEM | cut -d "-" -f 2`
+	SHORTNAME=`echo $ITEM | sed -e 's/gnome-//'`
 	rm -rf $SHORTNAME
 	mv $OLDNAME $SHORTNAME;
 done
