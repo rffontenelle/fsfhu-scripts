@@ -19,19 +19,19 @@
 # gmirr.sh - download all po/pot templates from l10n.gnome.org
 
 # Current version
-DEVVERSION=3-10
+DEVVERSION=3-12
 
 # What to download by default?
 VERSIONS=$DEVVERSION
 
 # Array of previous versions, good if you want to build compendium
-OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8)
+OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10)
 
 # Other projects
 OTHERS=(gnome-extras gnome-infrastructure gnome-office external-deps gnome-gimp gnome-extras-stable freedesktop-org)
 
 # More helpful defaults welcome :)
-TARGET="~/gnome-translations"
+TARGET=~/gnome-translations
 
 # Default invocation of wget
 WGET="wget -m -P ./.tarballs/ --cut-dirs=2 -nH -q"
@@ -56,9 +56,9 @@ while getopts 'd:l:f' OPTION
 		fi
 			;;
 	  l)	LINGUA="$OPTARG"
-		wget --spider -q http://l10n.gnome.org/languages/$LINGUA
+		wget --spider -q https://l10n.gnome.org/languages/$LINGUA
 		if [ "$?" -ne 0 ] ; then
-			echo "Seems that there is no team for this language on http://l10n.gnome.org/languages"
+			echo "Seems that there is no team for this language on https://l10n.gnome.org/languages"
 		exit 1
 		fi
 		if [ $TARGET = ~/gnome-translations ] ; then
@@ -68,26 +68,34 @@ while getopts 'd:l:f' OPTION
 	;;
 	  f)	VERSIONS=("${OLDVERSIONS[@]}" "$DEVVERSION")
 			;;
-	  ?)		echo "Usage: gmirr.sh -f -l LANG -d DIR\n"
+	  ?)		echo "Usage: gmirr.sh -f -l LANG -d DIR"
 			echo "Download all po/pot files from l10n.gnome.org"
 			echo "DIR: the target directory of the download, default: ~/gnome-translations"
 			echo "LANG: the code of the language. The default is taken from \$LANG"
-			echo "-f: Use this if you want to download old releases too (2.14 - 3.LASTRELEASE)"
+			echo "-f: Use this if you want to download old releases too (3.0 - 3.LASTRELEASE)"
 			exit 2
 			;;
 	  esac
 done
 	shift $(($OPTIND - 1))
 
+# No language code given in argument
+# Let's guess which language you want
 if [ -z "$LINGUA" ]; then 
-	# Let me guess which language you want...
-	LINGUA=`echo $LANG | cut -d _ -f1`
-	wget --spider -q http://l10n.gnome.org/languages/$LINGUA
+	# First let's search for the language code containing the country code, e.g. pt_BR
+	LINGUA=`echo $LANG | cut -d . -f1`
+	wget --spider https://l10n.gnome.org/languages/$LINGUA
+	# If it failed to find the language_country code, then search for the short version most languages use, e.g. pt
 	if [ "$?" -ne 0 ] ; then
-		echo "Failed to guess a correct language code based on \$LANG."
-		echo "Use -l to specify a valid code, see"
-		echo "http://l10n.gnome.org/languages/ for the team list"
+		LINGUA=`echo $LANG | cut -d _ -f1`
+		wget --spider https://l10n.gnome.org/languages/$LINGUA
+		# No luck with guessing, bailing out
+		if [ "$?" -ne 0 ] ; then
+			echo "Failed to guess a correct language code based on \$LANG."
+			echo "Use -l to specify a valid code, see"
+			echo "https://l10n.gnome.org/languages/ for the team list"
 		exit 1
+		fi
 	fi
 fi
 
@@ -115,12 +123,12 @@ do
 	fi
 
 	echo "Downloading po archive of Gnome $VER"
-	$WGET http://l10n.gnome.org/languages/$LINGUA/gnome-$VER/ui.tar.gz
+	$WGET https://l10n.gnome.org/languages/$LINGUA/gnome-$VER/ui.tar.gz
 	echo "extracting..."
 	tar -xzf ./.tarballs/gnome-$VER/ui.tar.gz -C $OUT
 
 	echo "Downloading doc archive of Gnome $VER"
-	$WGET http://l10n.gnome.org/languages/$LINGUA/gnome-$VER/doc.tar.gz
+	$WGET https://l10n.gnome.org/languages/$LINGUA/gnome-$VER/doc.tar.gz
 	echo "extracting..."
 	tar -xzf ./.tarballs/gnome-$VER/doc.tar.gz -C $OUT/docs
 
@@ -149,7 +157,7 @@ done
 for ITEM in ${OTHERS[@]}
 do
 	echo "Downloading po archive of $ITEM"
-	$WGET http://l10n.gnome.org/languages/$LINGUA/$ITEM/ui.tar.gz
+	$WGET https://l10n.gnome.org/languages/$LINGUA/$ITEM/ui.tar.gz
 
 	# Create a dir for this and for the existing docs
 	if [ ! -d $ITEM ] ; then 
@@ -165,7 +173,7 @@ do
 	fi
 
 	echo "Downloading doc archive of $ITEM"
-	$WGET http://l10n.gnome.org/languages/$LINGUA/$ITEM/doc.tar.gz
+	$WGET https://l10n.gnome.org/languages/$LINGUA/$ITEM/doc.tar.gz
 
 	echo "extracting..."
 	tar -xzf ./.tarballs/$ITEM/doc.tar.gz -C $ITEM/docs
