@@ -1,194 +1,363 @@
 [main]
 host = https://www.transifex.com
 
-[gaia-l10n-12.appsbluetooth]
-file_filter = gaia-<lang>/apps/bluetooth/bluetooth.properties
-source_file = gaia-en-US/apps/bluetooth/bluetooth.properties
+[gaia-l10n-hu.apps_camera_camera_properties]
+file_filter = gaia-l10n-<lang>/apps/camera/camera.properties
+source_file = gaia-l10n-en-US/apps/camera/camera.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsbrowser]
-file_filter = gaia-<lang>/apps/browser/browser.properties
-source_file = gaia-en-US/apps/browser/browser.properties
+[gaia-l10n-hu.apps_camera_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/camera/manifest.properties
+source_file = gaia-l10n-en-US/apps/camera/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appscalendar]
-file_filter = gaia-<lang>/apps/calendar/calendar.properties
-source_file = gaia-en-US/apps/calendar/calendar.properties
+[gaia-l10n-hu.apps_system_system_properties]
+file_filter = gaia-l10n-<lang>/apps/system/system.properties
+source_file = gaia-l10n-en-US/apps/system/system.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appscamera]
-file_filter = gaia-<lang>/apps/camera/camera.properties
-source_file = gaia-en-US/apps/camera/camera.properties
+[gaia-l10n-hu.apps_system_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/system/manifest.properties
+source_file = gaia-l10n-en-US/apps/system/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsclock]
-file_filter = gaia-<lang>/apps/clock/clock.properties
-source_file = gaia-en-US/apps/clock/clock.properties
+[gaia-l10n-hu.apps_gallery_gallery_properties]
+file_filter = gaia-l10n-<lang>/apps/gallery/gallery.properties
+source_file = gaia-l10n-en-US/apps/gallery/gallery.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsclockalarms]
-file_filter = gaia-<lang>/apps/clock/alarms.properties
-source_file = gaia-en-US/apps/clock/alarms.properties
+[gaia-l10n-hu.apps_gallery_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/gallery/manifest.properties
+source_file = gaia-l10n-en-US/apps/gallery/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appscommunicationscontacts]
-file_filter = gaia-<lang>/apps/communications/contacts/contacts.properties
-source_file = gaia-en-US/apps/communications/contacts/contacts.properties
-source_lang = en_US
-type = MOZILLAPROPERTIES
-
-[gaia-l10n-12.appscommunicationscontactsfb]
-file_filter = gaia-<lang>/apps/communications/contacts/fb/facebook.properties
-source_file = gaia-en-US/apps/communications/contacts/fb/facebook.properties
-source_lang = en_US
-type = MOZILLAPROPERTIES
-
-[gaia-l10n-12.appscommunicationscontactsmatcher]
-file_filter = gaia-<lang>/apps/communications/contacts/matcher/matcher.properties
-source_file = gaia-en-US/apps/communications/contacts/matcher/matcher.properties
-source_lang = en_US
-type = MOZILLAPROPERTIES
-
-[gaia-l10n-12.appscommunicationsdialer]
-file_filter = gaia-<lang>/apps/communications/dialer/dialer.properties
-source_file = gaia-en-US/apps/communications/dialer/dialer.properties
+[gaia-l10n-hu.apps_music_music_properties]
+file_filter = gaia-l10n-<lang>/apps/music/music.properties
+source_file = gaia-l10n-en-US/apps/music/music.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appscommunicationsdialershared]
-file_filter = gaia-<lang>/apps/communications/dialer/shared.properties
-source_file = gaia-en-US/apps/communications/dialer/shared.properties
+[gaia-l10n-hu.apps_music_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/music/manifest.properties
+source_file = gaia-l10n-en-US/apps/music/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appscommunicationsftu]
-file_filter = gaia-<lang>/apps/communications/ftu/ftu.properties
-source_file = gaia-en-US/apps/communications/ftu/ftu.properties
+[gaia-l10n-hu.apps_browser_browser_properties]
+file_filter = gaia-l10n-<lang>/apps/browser/browser.properties
+source_file = gaia-l10n-en-US/apps/browser/browser.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appscostcontrol]
-file_filter = gaia-<lang>/apps/costcontrol/costcontrol.properties
-source_file = gaia-en-US/apps/costcontrol/costcontrol.properties
+[gaia-l10n-hu.apps_browser_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/browser/manifest.properties
+source_file = gaia-l10n-en-US/apps/browser/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsemail]
-file_filter = gaia-<lang>/apps/email/email.properties
-source_file = gaia-en-US/apps/email/email.properties
+[gaia-l10n-hu.apps_email_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/email/manifest.properties
+source_file = gaia-l10n-en-US/apps/email/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsfldownload]
-file_filter = gaia-<lang>/apps/fl/download.properties
-source_file = gaia-en-US/apps/fl/download.properties
+[gaia-l10n-hu.apps_email_email_properties]
+file_filter = gaia-l10n-<lang>/apps/email/email.properties
+source_file = gaia-l10n-en-US/apps/email/email.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsflpick]
-file_filter = gaia-<lang>/apps/fl/pick.properties
-source_file = gaia-en-US/apps/fl/pick.properties
+[gaia-l10n-hu.apps_fm_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/fm/manifest.properties
+source_file = gaia-l10n-en-US/apps/fm/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsfm]
-file_filter = gaia-<lang>/apps/fm/fm.properties
-source_file = gaia-en-US/apps/fm/fm.properties
+[gaia-l10n-hu.apps_fm_fm_properties]
+file_filter = gaia-l10n-<lang>/apps/fm/fm.properties
+source_file = gaia-l10n-en-US/apps/fm/fm.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsgallery]
-file_filter = gaia-<lang>/apps/gallery/gallery.properties
-source_file = gaia-en-US/apps/gallery/gallery.properties
+[gaia-l10n-hu.apps_communications_dialer_dialer_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/dialer/dialer.properties
+source_file = gaia-l10n-en-US/apps/communications/dialer/dialer.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appshomescreen]
-file_filter = gaia-<lang>/apps/homescreen/homescreen.properties
-source_file = gaia-en-US/apps/homescreen/homescreen.properties
+[gaia-l10n-hu.apps_communications_dialer_shared_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/dialer/shared.properties
+source_file = gaia-l10n-en-US/apps/communications/dialer/shared.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appskeyboard]
-file_filter = gaia-<lang>/apps/keyboard/keyboard.properties
-source_file = gaia-en-US/apps/keyboard/keyboard.properties
+[gaia-l10n-hu.apps_communications_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/manifest.properties
+source_file = gaia-l10n-en-US/apps/communications/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsmusic]
-file_filter = gaia-<lang>/apps/music/music.properties
-source_file = gaia-en-US/apps/music/music.properties
+[gaia-l10n-hu.apps_communications_contacts_fb_facebook_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/contacts/fb/facebook.properties
+source_file = gaia-l10n-en-US/apps/communications/contacts/fb/facebook.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsringtones]
-file_filter = gaia-<lang>/apps/ringtones/ringtones.properties
-source_file = gaia-en-US/apps/ringtones/ringtones.properties
+[gaia-l10n-hu.apps_communications_contacts_contacts_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/contacts/contacts.properties
+source_file = gaia-l10n-en-US/apps/communications/contacts/contacts.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appssettings]
-file_filter = gaia-<lang>/apps/settings/settings.properties
-source_file = gaia-en-US/apps/settings/settings.properties
+[gaia-l10n-hu.apps_communications_contacts_matcher_matcher_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/contacts/matcher/matcher.properties
+source_file = gaia-l10n-en-US/apps/communications/contacts/matcher/matcher.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appssms]
-file_filter = gaia-<lang>/apps/sms/sms.properties
-source_file = gaia-en-US/apps/sms/sms.properties
+[gaia-l10n-hu.apps_communications_ftu_ftu_properties]
+file_filter = gaia-l10n-<lang>/apps/communications/ftu/ftu.properties
+source_file = gaia-l10n-en-US/apps/communications/ftu/ftu.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appssystem]
-file_filter = gaia-<lang>/apps/system/system.properties
-source_file = gaia-en-US/apps/system/system.properties
+[gaia-l10n-hu.apps_video_video_properties]
+file_filter = gaia-l10n-<lang>/apps/video/video.properties
+source_file = gaia-l10n-en-US/apps/video/video.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appsvideo]
-file_filter = gaia-<lang>/apps/video/video.properties
-source_file = gaia-en-US/apps/video/video.properties
+[gaia-l10n-hu.apps_video_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/video/manifest.properties
+source_file = gaia-l10n-en-US/apps/video/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appswallpaper]
-file_filter = gaia-<lang>/apps/wallpaper/wallpaper.properties
-source_file = gaia-en-US/apps/wallpaper/wallpaper.properties
+[gaia-l10n-hu.apps_calendar_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/calendar/manifest.properties
+source_file = gaia-l10n-en-US/apps/calendar/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.appswappush]
-file_filter = gaia-<lang>/apps/wappush/wappush.properties
-source_file = gaia-en-US/apps/wappush/wappush.properties
+[gaia-l10n-hu.apps_calendar_calendar_properties]
+file_filter = gaia-l10n-<lang>/apps/calendar/calendar.properties
+source_file = gaia-l10n-en-US/apps/calendar/calendar.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.sharedbrandingunofficial]
-file_filter = gaia-<lang>/shared/branding/unofficial/branding.properties
-source_file = gaia-en-US/shared/branding/unofficial/branding.properties
+[gaia-l10n-hu.apps_keyboard_keyboard_properties]
+file_filter = gaia-l10n-<lang>/apps/keyboard/keyboard.properties
+source_file = gaia-l10n-en-US/apps/keyboard/keyboard.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.shareddate]
-file_filter = gaia-<lang>/shared/date/date.properties
-source_file = gaia-en-US/shared/date/date.properties
+[gaia-l10n-hu.apps_keyboard_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/keyboard/manifest.properties
+source_file = gaia-l10n-en-US/apps/keyboard/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.sharedpermissions]
-file_filter = gaia-<lang>/shared/permissions/permissions.properties
-source_file = gaia-en-US/shared/permissions/permissions.properties
+[gaia-l10n-hu.apps_settings_settings_properties]
+file_filter = gaia-l10n-<lang>/apps/settings/settings.properties
+source_file = gaia-l10n-en-US/apps/settings/settings.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-12.sharedtz]
-file_filter = gaia-<lang>/shared/tz/tz.properties
-source_file = gaia-en-US/shared/tz/tz.properties
+[gaia-l10n-hu.apps_settings_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/settings/manifest.properties
+source_file = gaia-l10n-en-US/apps/settings/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_pdfjs_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/pdfjs/manifest.properties
+source_file = gaia-l10n-en-US/apps/pdfjs/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_bluetooth_bluetooth_properties]
+file_filter = gaia-l10n-<lang>/apps/bluetooth/bluetooth.properties
+source_file = gaia-l10n-en-US/apps/bluetooth/bluetooth.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_bluetooth_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/bluetooth/manifest.properties
+source_file = gaia-l10n-en-US/apps/bluetooth/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_clock_alarms_properties]
+file_filter = gaia-l10n-<lang>/apps/clock/alarms.properties
+source_file = gaia-l10n-en-US/apps/clock/alarms.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_clock_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/clock/manifest.properties
+source_file = gaia-l10n-en-US/apps/clock/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_clock_clock_properties]
+file_filter = gaia-l10n-<lang>/apps/clock/clock.properties
+source_file = gaia-l10n-en-US/apps/clock/clock.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_fl_pick_properties]
+file_filter = gaia-l10n-<lang>/apps/fl/pick.properties
+source_file = gaia-l10n-en-US/apps/fl/pick.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_fl_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/fl/manifest.properties
+source_file = gaia-l10n-en-US/apps/fl/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_fl_download_properties]
+file_filter = gaia-l10n-<lang>/apps/fl/download.properties
+source_file = gaia-l10n-en-US/apps/fl/download.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_setringtone_setringtone_properties]
+file_filter = gaia-l10n-<lang>/apps/setringtone/setringtone.properties
+source_file = gaia-l10n-en-US/apps/setringtone/setringtone.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_setringtone_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/setringtone/manifest.properties
+source_file = gaia-l10n-en-US/apps/setringtone/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_costcontrol_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/costcontrol/manifest.properties
+source_file = gaia-l10n-en-US/apps/costcontrol/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_costcontrol_costcontrol_properties]
+file_filter = gaia-l10n-<lang>/apps/costcontrol/costcontrol.properties
+source_file = gaia-l10n-en-US/apps/costcontrol/costcontrol.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_sms_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/sms/manifest.properties
+source_file = gaia-l10n-en-US/apps/sms/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_sms_sms_properties]
+file_filter = gaia-l10n-<lang>/apps/sms/sms.properties
+source_file = gaia-l10n-en-US/apps/sms/sms.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_permissions_permissions_properties]
+file_filter = gaia-l10n-<lang>/shared/permissions/permissions.properties
+source_file = gaia-l10n-en-US/shared/permissions/permissions.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_date_date_properties]
+file_filter = gaia-l10n-<lang>/shared/date/date.properties
+source_file = gaia-l10n-en-US/shared/date/date.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_branding_unofficial_branding_properties]
+file_filter = gaia-l10n-<lang>/shared/branding/unofficial/branding.properties
+source_file = gaia-l10n-en-US/shared/branding/unofficial/branding.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_tz_tz_properties]
+file_filter = gaia-l10n-<lang>/shared/tz/tz.properties
+source_file = gaia-l10n-en-US/shared/tz/tz.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_ringtones_ringtones_properties]
+file_filter = gaia-l10n-<lang>/apps/ringtones/ringtones.properties
+source_file = gaia-l10n-en-US/apps/ringtones/ringtones.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_ringtones_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/ringtones/manifest.properties
+source_file = gaia-l10n-en-US/apps/ringtones/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_wallpaper_wallpaper_properties]
+file_filter = gaia-l10n-<lang>/apps/wallpaper/wallpaper.properties
+source_file = gaia-l10n-en-US/apps/wallpaper/wallpaper.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_wallpaper_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/wallpaper/manifest.properties
+source_file = gaia-l10n-en-US/apps/wallpaper/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_wappush_wappush_properties]
+file_filter = gaia-l10n-<lang>/apps/wappush/wappush.properties
+source_file = gaia-l10n-en-US/apps/wappush/wappush.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_wappush_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/wappush/manifest.properties
+source_file = gaia-l10n-en-US/apps/wappush/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_homescreen_homescreen_properties]
+file_filter = gaia-l10n-<lang>/apps/homescreen/homescreen.properties
+source_file = gaia-l10n-en-US/apps/homescreen/homescreen.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_homescreen_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/homescreen/manifest.properties
+source_file = gaia-l10n-en-US/apps/homescreen/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_homescreen_collections_properties]
+file_filter = gaia-l10n-<lang>/apps/homescreen/collections.properties
+source_file = gaia-l10n-en-US/apps/homescreen/collections.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_search_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/search/manifest.properties
+source_file = gaia-l10n-en-US/apps/search/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_search_search_properties]
+file_filter = gaia-l10n-<lang>/apps/search/search.properties
+source_file = gaia-l10n-en-US/apps/search/search.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_download_download_properties]
+file_filter = gaia-l10n-<lang>/shared/download/download.properties
+source_file = gaia-l10n-en-US/shared/download/download.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
