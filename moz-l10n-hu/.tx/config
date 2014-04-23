@@ -121,12 +121,6 @@ source_file = mozilla-en/mail/chrome/messenger/am-archiveoptions.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.mail_chrome_messenger_msgFolderPickerOverlay_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/msgFolderPickerOverlay.dtd
-source_file = mozilla-en/mail/chrome/messenger/msgFolderPickerOverlay.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.mail_chrome_messenger_importDialog_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger/importDialog.dtd
 source_file = mozilla-en/mail/chrome/messenger/importDialog.dtd
@@ -1459,24 +1453,6 @@ source_file = mozilla-en/mobile/android/base/android_strings.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.calendar_chrome_sunbird_sunbird_dtd]
-file_filter = mozilla-<lang>/calendar/chrome/sunbird/sunbird.dtd
-source_file = mozilla-en/calendar/chrome/sunbird/sunbird.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.calendar_chrome_sunbird_menuOverlay_dtd]
-file_filter = mozilla-<lang>/calendar/chrome/sunbird/menuOverlay.dtd
-source_file = mozilla-en/calendar/chrome/sunbird/menuOverlay.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.calendar_chrome_sunbird_aboutDialog_dtd]
-file_filter = mozilla-<lang>/calendar/chrome/sunbird/aboutDialog.dtd
-source_file = mozilla-en/calendar/chrome/sunbird/aboutDialog.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.calendar_chrome_calendar_calendar-occurrence-prompt_dtd]
 file_filter = mozilla-<lang>/calendar/chrome/calendar/calendar-occurrence-prompt.dtd
 source_file = mozilla-en/calendar/chrome/calendar/calendar-occurrence-prompt.dtd
@@ -2461,12 +2437,6 @@ source_file = mozilla-en/browser/chrome/browser/devtools/webconsole.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.browser_chrome_browser_devtools_styleinspector_properties]
-file_filter = mozilla-<lang>/browser/chrome/browser/devtools/styleinspector.properties
-source_file = mozilla-en/browser/chrome/browser/devtools/styleinspector.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.browser_chrome_browser_devtools_gcli_properties]
 file_filter = mozilla-<lang>/browser/chrome/browser/devtools/gcli.properties
 source_file = mozilla-en/browser/chrome/browser/devtools/gcli.properties
@@ -2830,24 +2800,6 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.calendar_chrome_lightning_lightning_properties]
 file_filter = mozilla-<lang>/calendar/chrome/lightning/lightning.properties
 source_file = mozilla-en/calendar/chrome/lightning/lightning.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.calendar_installer_override_properties]
-file_filter = mozilla-<lang>/calendar/installer/override.properties
-source_file = mozilla-en/calendar/installer/override.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.calendar_installer_mui_properties]
-file_filter = mozilla-<lang>/calendar/installer/mui.properties
-source_file = mozilla-en/calendar/installer/mui.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.calendar_installer_custom_properties]
-file_filter = mozilla-<lang>/calendar/installer/custom.properties
-source_file = mozilla-en/calendar/installer/custom.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
@@ -3565,12 +3517,6 @@ source_file = mozilla-en/browser/metro/chrome/passwordmgr.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.browser_metro_chrome_crashprompt_properties]
-file_filter = mozilla-<lang>/browser/metro/chrome/crashprompt.properties
-source_file = mozilla-en/browser/metro/chrome/crashprompt.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.mobile_android_chrome_aboutHome_dtd]
 file_filter = mozilla-<lang>/mobile/android/chrome/aboutHome.dtd
 source_file = mozilla-en/mobile/android/chrome/aboutHome.dtd
@@ -3630,4 +3576,100 @@ file_filter = mozilla-<lang>/webapprt/webapprt/webapp.properties
 source_file = mozilla-en/webapprt/webapprt/webapp.properties
 source_lang = en
 type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_metro_chrome_crashprompt_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/crashprompt.dtd
+source_file = mozilla-en/browser/metro/chrome/crashprompt.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_searchPanel_dtd]
+file_filter = mozilla-<lang>/browser/metro/chrome/searchPanel.dtd
+source_file = mozilla-en/browser/metro/chrome/searchPanel.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.webapprt_webapprt_overrides_appstrings_properties]
+file_filter = mozilla-<lang>/webapprt/webapprt/overrides/appstrings.properties
+source_file = mozilla-en/webapprt/webapprt/overrides/appstrings.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.webapprt_webapprt_overrides_dom_properties]
+file_filter = mozilla-<lang>/webapprt/webapprt/overrides/dom.properties
+source_file = mozilla-en/webapprt/webapprt/overrides/dom.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_devtools_styleinspector_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/devtools/styleinspector.properties
+source_file = mozilla-en/toolkit/chrome/global/devtools/styleinspector.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_charsetMenu_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/charsetMenu.dtd
+source_file = mozilla-en/toolkit/chrome/global/charsetMenu.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_charsetMenu_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/charsetMenu.properties
+source_file = mozilla-en/toolkit/chrome/global/charsetMenu.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_syncCustomize_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/syncCustomize.dtd
+source_file = mozilla-en/browser/chrome/browser/syncCustomize.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_aboutAccounts_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/aboutAccounts.dtd
+source_file = mozilla-en/browser/chrome/browser/aboutAccounts.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_metro_chrome_config_properties]
+file_filter = mozilla-<lang>/browser/metro/chrome/config.properties
+source_file = mozilla-en/browser/metro/chrome/config.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_customizableui_customizableWidgets_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/customizableui/customizableWidgets.properties
+source_file = mozilla-en/browser/chrome/browser/customizableui/customizableWidgets.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_logger_properties]
+file_filter = mozilla-<lang>/chat/logger.properties
+source_file = mozilla-en/chat/logger.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_contacts_properties]
+file_filter = mozilla-<lang>/chat/contacts.properties
+source_file = mozilla-en/chat/contacts.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_yahoo_properties]
+file_filter = mozilla-<lang>/chat/yahoo.properties
+source_file = mozilla-en/chat/yahoo.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mobile_android_chrome_webapp_properties]
+file_filter = mozilla-<lang>/mobile/android/chrome/webapp.properties
+source_file = mozilla-en/mobile/android/chrome/webapp.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.mail_chrome_messenger_preferences_dockoptions_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/dockoptions.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/dockoptions.dtd
+source_lang = en
+type = DTD
 
