@@ -361,3 +361,9 @@ source_file = gaia-l10n-en-US/shared/download/download.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
+[gaia-l10n-hu.shared_sim_picker_sim_picker_properties]
+file_filter = gaia-l10n-<lang>/shared/sim_picker/sim_picker.properties
+source_file = gaia-l10n-en-US/shared/sim_picker/sim_picker.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
