@@ -253,51 +253,9 @@ source_file = mozilla-en/mail/chrome/messenger/cloudfile/Box/management.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.mail_chrome_messenger_cloudfile_UbuntuOne_settings_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/UbuntuOne/settings.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/UbuntuOne/settings.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_cloudfile_UbuntuOne_management_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/UbuntuOne/management.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/UbuntuOne/management.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.mail_chrome_messenger_cloudfile_addAccountDialog_dtd]
 file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/addAccountDialog.dtd
 source_file = mozilla-en/mail/chrome/messenger/cloudfile/addAccountDialog.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_settings_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/settings.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/settings.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_fileExceeds2GB_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/fileExceeds2GB.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/fileExceeds2GB.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_fileExceedsLimit_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsLimit.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsLimit.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_fileExceedsQuota_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsQuota.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/fileExceedsQuota.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.mail_chrome_messenger_cloudfile_YouSendIt_management_dtd]
-file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/YouSendIt/management.dtd
-source_file = mozilla-en/mail/chrome/messenger/cloudfile/YouSendIt/management.dtd
 source_lang = en
 type = DTD
 
@@ -3672,4 +3630,82 @@ file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/dockoptions.dtd
 source_file = mozilla-en/mail/chrome/messenger/preferences/dockoptions.dtd
 source_lang = en
 type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Hightail_settings_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Hightail/settings.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Hightail/settings.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Hightail_fileExceeds2GB_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Hightail/fileExceeds2GB.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Hightail/fileExceeds2GB.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Hightail_fileExceedsLimit_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Hightail/fileExceedsLimit.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Hightail/fileExceedsLimit.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Hightail_fileExceedsQuota_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Hightail/fileExceedsQuota.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Hightail/fileExceedsQuota.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_cloudfile_Hightail_management_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/cloudfile/Hightail/management.dtd
+source_file = mozilla-en/mail/chrome/messenger/cloudfile/Hightail/management.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_preferences_privacy_dtd]
+file_filter = mozilla-<lang>/mail/chrome/messenger/preferences/privacy.dtd
+source_file = mozilla-en/mail/chrome/messenger/preferences/privacy.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.editor_ui_chrome_dialogs_EditorInsertMath_dtd]
+file_filter = mozilla-<lang>/editor/ui/chrome/dialogs/EditorInsertMath.dtd
+source_file = mozilla-en/editor/ui/chrome/dialogs/EditorInsertMath.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_webaudioeditor_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/webaudioeditor.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/webaudioeditor.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_canvasdebugger_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/canvasdebugger.dtd
+source_file = mozilla-en/browser/chrome/browser/devtools/canvasdebugger.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_translation_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/translation.dtd
+source_file = mozilla-en/browser/chrome/browser/translation.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.browser_chrome_browser_devtools_webaudioeditor_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/webaudioeditor.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/webaudioeditor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_canvasdebugger_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/canvasdebugger.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/canvasdebugger.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_eyedropper_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/eyedropper.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/eyedropper.properties
+source_lang = en
+type = MOZILLAPROPERTIES
 
