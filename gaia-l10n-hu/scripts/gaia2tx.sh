@@ -18,6 +18,6 @@ hg pull && hg update --check
 gaia_tx_update.sh
 
 # upload updated original files to transifex
-tx push -s
+tx push -s --skip
 # Upload existing translations, needed only once per language
 #tx push -t -f -l hu --no-interactive --skip 
