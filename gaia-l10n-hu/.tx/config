@@ -103,12 +103,6 @@ source_file = gaia-l10n-en-US/apps/communications/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
-[gaia-l10n-hu.apps_communications_contacts_fb_facebook_properties]
-file_filter = gaia-l10n-<lang>/apps/communications/contacts/fb/facebook.properties
-source_file = gaia-l10n-en-US/apps/communications/contacts/fb/facebook.properties
-source_lang = en-US
-type = MOZILLAPROPERTIES
-
 [gaia-l10n-hu.apps_communications_contacts_contacts_properties]
 file_filter = gaia-l10n-<lang>/apps/communications/contacts/contacts.properties
 source_file = gaia-l10n-en-US/apps/communications/contacts/contacts.properties
@@ -118,12 +112,6 @@ type = MOZILLAPROPERTIES
 [gaia-l10n-hu.apps_communications_contacts_matcher_matcher_properties]
 file_filter = gaia-l10n-<lang>/apps/communications/contacts/matcher/matcher.properties
 source_file = gaia-l10n-en-US/apps/communications/contacts/matcher/matcher.properties
-source_lang = en-US
-type = MOZILLAPROPERTIES
-
-[gaia-l10n-hu.apps_communications_ftu_ftu_properties]
-file_filter = gaia-l10n-<lang>/apps/communications/ftu/ftu.properties
-source_file = gaia-l10n-en-US/apps/communications/ftu/ftu.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
@@ -226,18 +214,6 @@ type = MOZILLAPROPERTIES
 [gaia-l10n-hu.apps_fl_download_properties]
 file_filter = gaia-l10n-<lang>/apps/fl/download.properties
 source_file = gaia-l10n-en-US/apps/fl/download.properties
-source_lang = en-US
-type = MOZILLAPROPERTIES
-
-[gaia-l10n-hu.apps_setringtone_setringtone_properties]
-file_filter = gaia-l10n-<lang>/apps/setringtone/setringtone.properties
-source_file = gaia-l10n-en-US/apps/setringtone/setringtone.properties
-source_lang = en-US
-type = MOZILLAPROPERTIES
-
-[gaia-l10n-hu.apps_setringtone_manifest_properties]
-file_filter = gaia-l10n-<lang>/apps/setringtone/manifest.properties
-source_file = gaia-l10n-en-US/apps/setringtone/manifest.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
@@ -364,6 +340,132 @@ type = MOZILLAPROPERTIES
 [gaia-l10n-hu.shared_sim_picker_sim_picker_properties]
 file_filter = gaia-l10n-<lang>/shared/sim_picker/sim_picker.properties
 source_file = gaia-l10n-en-US/shared/sim_picker/sim_picker.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_verticalhome_homescreen_properties]
+file_filter = gaia-l10n-<lang>/apps/verticalhome/homescreen.properties
+source_file = gaia-l10n-en-US/apps/verticalhome/homescreen.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_verticalhome_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/verticalhome/manifest.properties
+source_file = gaia-l10n-en-US/apps/verticalhome/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_callscreen_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/callscreen/manifest.properties
+source_file = gaia-l10n-en-US/apps/callscreen/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_emergency-call_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/emergency-call/manifest.properties
+source_file = gaia-l10n-en-US/apps/emergency-call/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_system_fxa_fxa_properties]
+file_filter = gaia-l10n-<lang>/apps/system/fxa/fxa.properties
+source_file = gaia-l10n-en-US/apps/system/fxa/fxa.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_system_mobile_id_mobile_id_properties]
+file_filter = gaia-l10n-<lang>/apps/system/mobile_id/mobile_id.properties
+source_file = gaia-l10n-en-US/apps/system/mobile_id/mobile_id.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_findmydevice_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/findmydevice/manifest.properties
+source_file = gaia-l10n-en-US/apps/findmydevice/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_sharedtest_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/sharedtest/manifest.properties
+source_file = gaia-l10n-en-US/apps/sharedtest/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_bookmark_bookmark_properties]
+file_filter = gaia-l10n-<lang>/apps/bookmark/bookmark.properties
+source_file = gaia-l10n-en-US/apps/bookmark/bookmark.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_bookmark_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/bookmark/manifest.properties
+source_file = gaia-l10n-en-US/apps/bookmark/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_collection_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/collection/manifest.properties
+source_file = gaia-l10n-en-US/apps/collection/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_collection_collection_properties]
+file_filter = gaia-l10n-<lang>/apps/collection/collection.properties
+source_file = gaia-l10n-en-US/apps/collection/collection.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_operatorvariant_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/operatorvariant/manifest.properties
+source_file = gaia-l10n-en-US/apps/operatorvariant/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_ftu_ftu_properties]
+file_filter = gaia-l10n-<lang>/apps/ftu/ftu.properties
+source_file = gaia-l10n-en-US/apps/ftu/ftu.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.apps_ftu_manifest_properties]
+file_filter = gaia-l10n-<lang>/apps/ftu/manifest.properties
+source_file = gaia-l10n-en-US/apps/ftu/manifest.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_voicemail_voicemail_properties]
+file_filter = gaia-l10n-<lang>/shared/voicemail/voicemail.properties
+source_file = gaia-l10n-en-US/shared/voicemail/voicemail.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_import_contacts_import_contacts_properties]
+file_filter = gaia-l10n-<lang>/shared/import_contacts/import_contacts.properties
+source_file = gaia-l10n-en-US/shared/import_contacts/import_contacts.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_facebook_facebook_properties]
+file_filter = gaia-l10n-<lang>/shared/facebook/facebook.properties
+source_file = gaia-l10n-en-US/shared/facebook/facebook.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_sounds_sounds_properties]
+file_filter = gaia-l10n-<lang>/shared/sounds/sounds.properties
+source_file = gaia-l10n-en-US/shared/sounds/sounds.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_collection_categories_collection_categories_properties]
+file_filter = gaia-l10n-<lang>/shared/collection_categories/collection_categories.properties
+source_file = gaia-l10n-en-US/shared/collection_categories/collection_categories.properties
+source_lang = en-US
+type = MOZILLAPROPERTIES
+
+[gaia-l10n-hu.shared_gaia_grid_gaia_grid_properties]
+file_filter = gaia-l10n-<lang>/shared/gaia_grid/gaia_grid.properties
+source_file = gaia-l10n-en-US/shared/gaia_grid/gaia_grid.properties
 source_lang = en-US
 type = MOZILLAPROPERTIES
 
