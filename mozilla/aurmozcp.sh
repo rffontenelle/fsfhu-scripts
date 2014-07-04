@@ -56,6 +56,9 @@ mkdir -p "$TPREFIX"/mobile/android/base/ ;
 cp -r "$PREFIX"/mozilla-aurora/mobile/android/base/locales/en-US/* "$TPREFIX"/mobile/android/base/
 cp -r "$PREFIX"/mozilla-aurora/mobile/android/locales/en-US/* "$TPREFIX"/mobile/android/
 
+mkdir -p "$TPREFIX"/webapprt/;
+cp -r "$PREFIX"/mozilla-aurora/webapprt/locales/en-US/* "$TPREFIX"/webapprt/
+
 # We should not touch these files
 find "$TPREFIX"/ -name region.properties | xargs rm
 
