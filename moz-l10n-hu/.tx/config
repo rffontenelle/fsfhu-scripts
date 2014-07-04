@@ -1705,12 +1705,6 @@ source_file = mozilla-en/toolkit/chrome/global/printPageSetup.dtd
 source_lang = en
 type = DTD
 
-[mozilla-hu.toolkit_chrome_global_charsetOverlay_dtd]
-file_filter = mozilla-<lang>/toolkit/chrome/global/charsetOverlay.dtd
-source_file = mozilla-en/toolkit/chrome/global/charsetOverlay.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.toolkit_chrome_global_actions_dtd]
 file_filter = mozilla-<lang>/toolkit/chrome/global/actions.dtd
 source_file = mozilla-en/toolkit/chrome/global/actions.dtd
@@ -1840,12 +1834,6 @@ type = DTD
 [mozilla-hu.toolkit_chrome_global_aboutSupport_dtd]
 file_filter = mozilla-<lang>/toolkit/chrome/global/aboutSupport.dtd
 source_file = mozilla-en/toolkit/chrome/global/aboutSupport.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.toolkit_chrome_global_customizeCharset_dtd]
-file_filter = mozilla-<lang>/toolkit/chrome/global/customizeCharset.dtd
-source_file = mozilla-en/toolkit/chrome/global/customizeCharset.dtd
 source_lang = en
 type = DTD
 
@@ -3139,12 +3127,6 @@ source_file = mozilla-en/dom/chrome/nsWebBrowserPersist.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.dom_chrome_charsetTitles_properties]
-file_filter = mozilla-<lang>/dom/chrome/charsetTitles.properties
-source_file = mozilla-en/dom/chrome/charsetTitles.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.dom_chrome_dom_dom_properties]
 file_filter = mozilla-<lang>/dom/chrome/dom/dom.properties
 source_file = mozilla-en/dom/chrome/dom/dom.properties
@@ -3403,78 +3385,6 @@ source_file = mozilla-en/browser/chrome/browser/devtools/app-manager.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.browser_metro_chrome_sync_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/sync.dtd
-source_file = mozilla-en/browser/metro/chrome/sync.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_browser_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/browser.dtd
-source_file = mozilla-en/browser/metro/chrome/browser.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_preferences_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/preferences.dtd
-source_file = mozilla-en/browser/metro/chrome/preferences.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_phishing_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/phishing.dtd
-source_file = mozilla-en/browser/metro/chrome/phishing.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_aboutCertError_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/aboutCertError.dtd
-source_file = mozilla-en/browser/metro/chrome/aboutCertError.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_aboutAddons_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/aboutAddons.dtd
-source_file = mozilla-en/browser/metro/chrome/aboutAddons.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_config_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/config.dtd
-source_file = mozilla-en/browser/metro/chrome/config.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_aboutPanel_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/aboutPanel.dtd
-source_file = mozilla-en/browser/metro/chrome/aboutPanel.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_checkbox_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/checkbox.dtd
-source_file = mozilla-en/browser/metro/chrome/checkbox.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_sync_properties]
-file_filter = mozilla-<lang>/browser/metro/chrome/sync.properties
-source_file = mozilla-en/browser/metro/chrome/sync.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.browser_metro_chrome_browser_properties]
-file_filter = mozilla-<lang>/browser/metro/chrome/browser.properties
-source_file = mozilla-en/browser/metro/chrome/browser.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
-[mozilla-hu.browser_metro_chrome_passwordmgr_properties]
-file_filter = mozilla-<lang>/browser/metro/chrome/passwordmgr.properties
-source_file = mozilla-en/browser/metro/chrome/passwordmgr.properties
-source_lang = en
-type = MOZILLAPROPERTIES
-
 [mozilla-hu.mobile_android_chrome_aboutHome_dtd]
 file_filter = mozilla-<lang>/mobile/android/chrome/aboutHome.dtd
 source_file = mozilla-en/mobile/android/chrome/aboutHome.dtd
@@ -3535,18 +3445,6 @@ source_file = mozilla-en/webapprt/webapprt/webapp.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
-[mozilla-hu.browser_metro_chrome_crashprompt_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/crashprompt.dtd
-source_file = mozilla-en/browser/metro/chrome/crashprompt.dtd
-source_lang = en
-type = DTD
-
-[mozilla-hu.browser_metro_chrome_searchPanel_dtd]
-file_filter = mozilla-<lang>/browser/metro/chrome/searchPanel.dtd
-source_file = mozilla-en/browser/metro/chrome/searchPanel.dtd
-source_lang = en
-type = DTD
-
 [mozilla-hu.webapprt_webapprt_overrides_appstrings_properties]
 file_filter = mozilla-<lang>/webapprt/webapprt/overrides/appstrings.properties
 source_file = mozilla-en/webapprt/webapprt/overrides/appstrings.properties
@@ -3588,12 +3486,6 @@ file_filter = mozilla-<lang>/browser/chrome/browser/aboutAccounts.dtd
 source_file = mozilla-en/browser/chrome/browser/aboutAccounts.dtd
 source_lang = en
 type = DTD
-
-[mozilla-hu.browser_metro_chrome_config_properties]
-file_filter = mozilla-<lang>/browser/metro/chrome/config.properties
-source_file = mozilla-en/browser/metro/chrome/config.properties
-source_lang = en
-type = MOZILLAPROPERTIES
 
 [mozilla-hu.browser_chrome_browser_customizableui_customizableWidgets_properties]
 file_filter = mozilla-<lang>/browser/chrome/browser/customizableui/customizableWidgets.properties
@@ -3706,6 +3598,54 @@ type = MOZILLAPROPERTIES
 [mozilla-hu.browser_chrome_browser_devtools_eyedropper_properties]
 file_filter = mozilla-<lang>/browser/chrome/browser/devtools/eyedropper.properties
 source_file = mozilla-en/browser/chrome/browser/devtools/eyedropper.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_preferences_translation_dtd]
+file_filter = mozilla-<lang>/browser/chrome/browser/preferences/translation.dtd
+source_file = mozilla-en/browser/chrome/browser/preferences/translation.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mobile_android_chrome_aboutDevices_dtd]
+file_filter = mozilla-<lang>/mobile/android/chrome/aboutDevices.dtd
+source_file = mozilla-en/mobile/android/chrome/aboutDevices.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.toolkit_chrome_global_devtools_csscoverage_dtd]
+file_filter = mozilla-<lang>/toolkit/chrome/global/devtools/csscoverage.dtd
+source_file = mozilla-en/toolkit/chrome/global/devtools/csscoverage.dtd
+source_lang = en
+type = DTD
+
+[mozilla-hu.mail_chrome_messenger_charsetTitles_properties]
+file_filter = mozilla-<lang>/mail/chrome/messenger/charsetTitles.properties
+source_file = mozilla-en/mail/chrome/messenger/charsetTitles.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_devtools_projecteditor_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/devtools/projecteditor.properties
+source_file = mozilla-en/browser/chrome/browser/devtools/projecteditor.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.browser_chrome_browser_translation_properties]
+file_filter = mozilla-<lang>/browser/chrome/browser/translation.properties
+source_file = mozilla-en/browser/chrome/browser/translation.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.chat_imtooltip_properties]
+file_filter = mozilla-<lang>/chat/imtooltip.properties
+source_file = mozilla-en/chat/imtooltip.properties
+source_lang = en
+type = MOZILLAPROPERTIES
+
+[mozilla-hu.toolkit_chrome_global_devtools_csscoverage_properties]
+file_filter = mozilla-<lang>/toolkit/chrome/global/devtools/csscoverage.properties
+source_file = mozilla-en/toolkit/chrome/global/devtools/csscoverage.properties
 source_lang = en
 type = MOZILLAPROPERTIES
 
