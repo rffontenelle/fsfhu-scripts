@@ -2,6 +2,7 @@
 
 # Copyright (c) 2008 Istvan Nyitrai <sianis@gmail.com>
 # Copyright (c) 2008 Gabor Kelemen <kelemeng@gnome.hu>
+# Copyright (c) 2015 Balazs Ur <urbalazs@gmail.com>
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the Free
 # Software Foundation; either version 2 of the License, or (at your option)
@@ -19,16 +20,16 @@
 # gmirr.sh - download all po/pot templates from l10n.gnome.org
 
 # Current version
-DEVVERSION=3-12
+DEVVERSION=3-18
 
 # What to download by default?
 VERSIONS=$DEVVERSION
 
 # Array of previous versions, good if you want to build compendium
-OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10)
+OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10 3-12 3-14 3-16)
 
 # Other projects
-OTHERS=(gnome-extras gnome-infrastructure gnome-office external-deps gnome-gimp gnome-extras-stable freedesktop-org)
+OTHERS=(gnome-extras gnome-infrastructure gnome-office gnome-gimp gnome-extras-stable)
 
 # More helpful defaults welcome :)
 TARGET=~/gnome-translations
@@ -194,4 +195,3 @@ do
 	rm -rf $SHORTNAME
 	mv $OLDNAME $SHORTNAME;
 done
-
