@@ -69,11 +69,11 @@ while getopts 'd:l:f' OPTION
 	;;
 	  f)	VERSIONS=("${OLDVERSIONS[@]}" "$DEVVERSION")
 			;;
-	  ?)		echo "Usage: gmirr.sh -f -l LANG -d DIR"
+	  ?)		echo "Usage: gmirr.sh [-f] [-l LANG] [-d DIR]"
 			echo "Download all po/pot files from l10n.gnome.org"
-			echo "DIR: the target directory of the download, default: ~/gnome-translations"
-			echo "LANG: the code of the language. The default is taken from \$LANG"
-			echo "-f: Use this if you want to download old releases too (3.0 - 3.LASTRELEASE)"
+			echo " -d DIR   the target directory of the download (default: $TARGET)"
+			echo " -l LANG  specifies language code to use (default: use \$LANG)"
+			echo " -f       also download all old releases from 3.0 until latest available"
 			exit 2
 			;;
 	  esac
