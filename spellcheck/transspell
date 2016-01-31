@@ -15,27 +15,49 @@
 # 51 Franklin Street, Fifth Floor Boston, MA 02110-1301 USA
 #
 # transspell - spell check the translated strings in a po file
-# TODO: checking original strings would be a nice feature
+
+# Default variables
+# By default, we drop original strings and check translations.
+# This can be reversed with -o 
+MSGID=0;
+MSGSTR=1;
 
 # Usage info, spell check language setting 
-while getopts "l:" OPTION
+function usage 
+{
+	echo "Usage: transspell [-l LANG] [-o] template.po[t]";
+	echo -e "Check the spelling of the translated strings found in template.po[t]\n";
+	echo "Options:";
+	echo " -l LANG    Language of the strings to check";	
+	echo " -o         Check the original strings";
+}
+
+while getopts "l:o" OPTION
 	do
 	  case $OPTION in
   		l)
 			LOCALE="$OPTARG";
-			shift $(($OPTIND - 1))
+			;;
+		o)
+			MSGID=1;
+			MSGSTR=0;
+			# locale is not already set with -l
+			if [ -z "$LOCALE" ]; then 
+				LOCALE=en_US
+			fi
 			;;
 		?)
-			echo "Usage: transspell [-l LANG] template.po";
+			usage
 			exit 1;
 			;;
 	  esac
 done
+shift $(($OPTIND - 1));
 
 # Do we have a file as attribute?
 if [ -f "$1" ]; then
 	# Syntax check first. msgattrib would bail out on a syntactically incorrect file
-	msgfmt -cvo /dev/null $1;
+	msgfmt -cvo /dev/null "$1";
 	if [ $? -ne 0 ]; then
 		echo "Syntax error, spell checking cannot commence";
 		echo "Fix the above errors, check the file with";
@@ -45,14 +67,12 @@ if [ -f "$1" ]; then
 	fi
 # A file was not provided
 else
-	echo "Usage: transspell [-l LANG] template.po";
-	echo "Check the spelling of the translated strings found in template.po";
-	echo "Options:";
-	echo " -l LANG    Translation is in LANG";
-	exit 3;
+	echo "No file was provided";
+	usage;
+	exit 1;
 fi
 
-# Guess the LOCALE from $LANG if it was not given with -l 
+# Guess the LOCALE from $LANG if it was not given with -l or set to default en_US with -o
 if [ -z "$LOCALE" ]; then 
 	LOCALE=`echo $LANG | cut -d . -f1`
 fi
@@ -61,20 +81,20 @@ fi
 # Then drop original strings and contexts
 # Then strip away msgid "", invisible parts and things that are supposed to stay untranslated 
 # or ones that would show up as false positives
-msgattrib --no-wrap $1 | \
+msgattrib --no-wrap "$1" | \
 awk '
 	BEGIN {
 		do_print = 0;
 		count = 1;
 	}
 	/^msgid/ {
-		do_print = 0;
+		do_print = '${MSGID}';
 	}
 	/^msgctxt/ {
 		do_print = 0;
 	}
 	/^msgstr/ {
-		do_print = 1;
+		do_print = '${MSGSTR}' ;
 		count = count + 1;
 	}
 	//	{
@@ -83,6 +103,7 @@ awk '
 ' | sed \
 -e 's/^#.*//g # Drop comment lines starting with # ' \
 -e 's/^msgstr\[*.*\]* "// # Drop gettext label of translated text' \
+-e 's/^msgid\[*.*\]* "// # Drop gettext label of untranslated text' \
 -e 's/^"// # Drop starting quotes surrounding the strings' \
 -e 's/"$// # Drop closing quotes surrounding the strings ' \
 -e 's/\\./ /g # Replace control sequences like \n \t with a space' \
@@ -92,6 +113,7 @@ awk '
  -r -e 's|(<[^>]+>)+| |g # <XML> tags' \
 -e 's|&[A-Za-z_:][A-Za-z0-9_\.:-]*;| |g #HTML &entities;' \
 -e 's/\;/ /g # Hunspell does not consider this as punctuation' \
--e 's/[_&~]//g # ~Common _accelerator &keys' \
--e "s/'//g # Single quotes are bad for some reason" | \
+-e "s/ '/ /g # Single quotes aren't considered punctuation either" \
+-e "s/' / /g # Single quotes aren't considered punctuation either, but not all is to be dropped" \
+-e 's/[_&~]//g # ~Common _accelerator &keys' |
 hunspell -d "$LOCALE" -l | sort -u | pr -3at
