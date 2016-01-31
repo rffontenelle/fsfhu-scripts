@@ -18,17 +18,17 @@
 
 # Default variables
 # By default, we drop original strings and check translations.
-# This can be reversed with -o 
+# This can be reversed with -o
 MSGID=0;
 MSGSTR=1;
 
 # Usage info, spell check language setting 
-function usage 
+function usage
 {
 	echo "Usage: transspell [-l LANG] [-o] template.po[t]";
 	echo -e "Check the spelling of the translated strings found in template.po[t]\n";
 	echo "Options:";
-	echo " -l LANG    Language of the strings to check";	
+	echo " -l LANG    Language of the strings to check";
 	echo " -o         Check the original strings";
 }
 
@@ -42,7 +42,7 @@ while getopts "l:o" OPTION
 			MSGID=1;
 			MSGSTR=0;
 			# locale is not already set with -l
-			if [ -z "$LOCALE" ]; then 
+			if [ -z "$LOCALE" ]; then
 				LOCALE=en_US
 			fi
 			;;
