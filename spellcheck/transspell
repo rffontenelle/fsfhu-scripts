@@ -1,0 +1,97 @@
+#!/bin/bash
+# Copyright (c) 2016 Gabor Kelemen <kelemeng@ubuntu.com>
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc., 
+# 51 Franklin Street, Fifth Floor Boston, MA 02110-1301 USA
+#
+# transspell - spell check the translated strings in a po file
+# TODO: checking original strings would be a nice feature
+
+# Usage info, spell check language setting 
+while getopts "l:" OPTION
+	do
+	  case $OPTION in
+  		l)
+			LOCALE="$OPTARG";
+			shift $(($OPTIND - 1))
+			;;
+		?)
+			echo "Usage: transspell [-l LANG] template.po";
+			exit 1;
+			;;
+	  esac
+done
+
+# Do we have a file as attribute?
+if [ -f "$1" ]; then
+	# Syntax check first. msgattrib would bail out on a syntactically incorrect file
+	msgfmt -cvo /dev/null $1;
+	if [ $? -ne 0 ]; then
+		echo "Syntax error, spell checking cannot commence";
+		echo "Fix the above errors, check the file with";
+		echo "msgfmt -cvo /dev/null $1";
+		echo "then try again.";
+		exit 1;
+	fi
+# A file was not provided
+else
+	echo "Usage: transspell [-l LANG] template.po";
+	echo "Check the spelling of the translated strings found in template.po";
+	echo "Options:";
+	echo " -l LANG    Translation is in LANG";
+	exit 3;
+fi
+
+# Guess the LOCALE from $LANG if it was not given with -l 
+if [ -z "$LOCALE" ]; then 
+	LOCALE=`echo $LANG | cut -d . -f1`
+fi
+
+# Main text processing. First: turn multiline translations into one line translations
+# Then drop original strings and contexts
+# Then strip away msgid "", invisible parts and things that are supposed to stay untranslated 
+# or ones that would show up as false positives
+msgattrib --no-wrap $1 | \
+awk '
+	BEGIN {
+		do_print = 0;
+		count = 1;
+	}
+	/^msgid/ {
+		do_print = 0;
+	}
+	/^msgctxt/ {
+		do_print = 0;
+	}
+	/^msgstr/ {
+		do_print = 1;
+		count = count + 1;
+	}
+	//	{
+		if (do_print && count > 2) print $0;
+	}
+' | sed \
+-e 's/^#.*//g # Drop comment lines starting with # ' \
+-e 's/^msgstr\[*.*\]* "// # Drop gettext label of translated text' \
+-e 's/^"// # Drop starting quotes surrounding the strings' \
+-e 's/"$// # Drop closing quotes surrounding the strings ' \
+-e 's/\\./ /g # Replace control sequences like \n \t with a space' \
+-e 's/@@.*//g # Image md5 sums in GNOME docs' \
+-e 's/external ref=.*//g # Image md5 sums in GNOME docs' \
+-e 's/--[[:alpha:]]*//g # Command line --options are supposed to remain English' \
+ -r -e 's|(<[^>]+>)+| |g # <XML> tags' \
+-e 's|&[A-Za-z_:][A-Za-z0-9_\.:-]*;| |g #HTML &entities;' \
+-e 's/\;/ /g # Hunspell does not consider this as punctuation' \
+-e 's/[_&~]//g # ~Common _accelerator &keys' \
+-e "s/'//g # Single quotes are bad for some reason" | \
+hunspell -d "$LOCALE" -l | sort -u | pr -3at
