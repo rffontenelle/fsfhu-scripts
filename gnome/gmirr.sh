@@ -26,7 +26,7 @@ DEVVERSION=3-20
 VERSIONS=$DEVVERSION
 
 # Array of previous versions, good if you want to build compendium
-OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10 3-12 3-14 3-16 3-16)
+OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10 3-12 3-14 3-16 3-16 3-18)
 
 # Other projects
 OTHERS=(gnome-extras gnome-infrastructure gnome-gimp gnome-extras-stable)
@@ -66,7 +66,7 @@ while getopts 'd:l:f' OPTION
 			# don't put the files to the default dir
 			TARGET="$TARGET-$LINGUA"
 		fi
-	;;
+			;;
 	  f)	VERSIONS=("${OLDVERSIONS[@]}" "$DEVVERSION")
 			;;
 	  ?)		echo "Usage: gmirr.sh [-f] [-l LANG] [-d DIR]"
@@ -78,7 +78,8 @@ while getopts 'd:l:f' OPTION
 			;;
 	  esac
 done
-	shift $(($OPTIND - 1))
+
+shift $(($OPTIND - 1))
 
 # No language code given in argument
 # Let's guess which language you want
