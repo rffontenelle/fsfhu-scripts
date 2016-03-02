@@ -81,7 +81,7 @@ fi
 # Then drop original strings and contexts
 # Then strip away msgid "", invisible parts and things that are supposed to stay untranslated 
 # or ones that would show up as false positives
-msgattrib --no-wrap "$1" | \
+msgattrib --no-wrap --no-fuzzy --no-obsolete "$1" | \
 awk '
 	BEGIN {
 		do_print = 0;
