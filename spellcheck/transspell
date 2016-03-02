@@ -110,10 +110,12 @@ awk '
 -e 's/@@.*//g # Image md5 sums in GNOME docs' \
 -e 's/external ref=.*//g # Image md5 sums in GNOME docs' \
 -e 's/--[[:alpha:]]*//g # Command line --options are supposed to remain English' \
- -r -e 's|(<[^>]+>)+| |g # <XML> tags' \
--e 's|&[A-Za-z_:][A-Za-z0-9_\.:-]*;| |g #HTML &entities;' \
+-r -e 's|(<[^>]+>)+| |g # <XML> tags' \
+-e 's|&[A-Za-z_:][A-Za-z0-9_\.:-]*;| |g # HTML &entities;' \
 -e 's/\;/ /g # Hunspell does not consider this as punctuation' \
 -e "s/ '/ /g # Single quotes aren't considered punctuation either" \
 -e "s/' / /g # Single quotes aren't considered punctuation either, but not all is to be dropped" \
+-e "s/(%\([^)]+\).)+/ /g # Python 3-style %(named)s variables" \
+-e "s/(\{[^}]+)}+/ /g # {named} variables" \
 -e 's/[_&~]//g # ~Common _accelerator &keys' |
 hunspell -d "$LOCALE" -l | sort -u | pr -3at
