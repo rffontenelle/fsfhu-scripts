@@ -100,7 +100,7 @@ awk '
 	//	{
 		if (do_print && count > 2) print $0;
 	}
-' | sed \
+' | sed -r \
 -e 's/^#.*//g # Drop comment lines starting with # ' \
 -e 's/^msgstr\[*.*\]* "// # Drop gettext label of translated text' \
 -e 's/^msgid\[*.*\]* "// # Drop gettext label of untranslated text' \
@@ -109,8 +109,8 @@ awk '
 -e 's/\\./ /g # Replace control sequences like \n \t with a space' \
 -e 's/@@.*//g # Image md5 sums in GNOME docs' \
 -e 's/external ref=.*//g # Image md5 sums in GNOME docs' \
--e 's/--[[:alpha:]]*//g # Command line --options are supposed to remain English' \
--r -e 's|(<[^>]+>)+| |g # <XML> tags' \
+-e 's/--[[:alpha:]]*(-[[:alpha:]]*)*=?//g # Command line --options are supposed to remain English' \
+-e 's|(<[^>]+>)+| |g # <XML> tags' \
 -e 's|&[A-Za-z_:][A-Za-z0-9_\.:-]*;| |g # HTML &entities;' \
 -e 's/\;/ /g # Hunspell does not consider this as punctuation' \
 -e "s/ '/ /g # Single quotes aren't considered punctuation either" \
