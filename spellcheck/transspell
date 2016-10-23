@@ -112,6 +112,7 @@ awk '
 -e 's/--[[:alpha:]]*(-[[:alpha:]]*)*=?//g # Command line --options are supposed to remain English' \
 -e 's|(<[^>]+>)+| |g # <XML> tags' \
 -e 's|&[A-Za-z_:][A-Za-z0-9_\.:-]*;| |g # HTML &entities;' \
+-e 's|­||g # soft hyphens' \
 -e 's/\;/ /g # Hunspell does not consider this as punctuation' \
 -e "s/ '/ /g # Single quotes aren't considered punctuation either" \
 -e "s/' / /g # Single quotes aren't considered punctuation either, but not all is to be dropped" \
