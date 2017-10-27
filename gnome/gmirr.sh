@@ -20,13 +20,13 @@
 # gmirr.sh - download all po/pot templates from l10n.gnome.org
 
 # Current version
-DEVVERSION=3-24
+DEVVERSION=3-28
 
 # What to download by default?
 VERSIONS=$DEVVERSION
 
 # Array of previous versions, good if you want to build compendium
-OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10 3-12 3-14 3-16 3-18 3-20 3-22)
+OLDVERSIONS=(3-0 3-2 3-4 3-6 3-8 3-10 3-12 3-14 3-16 3-18 3-20 3-22 3-24 3-26)
 
 # Other projects
 OTHERS=(gnome-extras gnome-infrastructure gnome-gimp gnome-extras-stable)
@@ -124,12 +124,12 @@ do
 		fi
 	fi
 
-	echo "Downloading po archive of Gnome $VER"
+	echo "Downloading po archive of GNOME $VER"
 	$WGET https://l10n.gnome.org/languages/$LINGUA/gnome-$VER/ui.tar.gz
 	echo "extracting..."
 	tar -xzf ./.tarballs/gnome-$VER/ui.tar.gz -C $OUT
 
-	echo "Downloading doc archive of Gnome $VER"
+	echo "Downloading doc archive of GNOME $VER"
 	$WGET https://l10n.gnome.org/languages/$LINGUA/gnome-$VER/doc.tar.gz
 	echo "extracting..."
 	tar -xzf ./.tarballs/gnome-$VER/doc.tar.gz -C $OUT/docs
