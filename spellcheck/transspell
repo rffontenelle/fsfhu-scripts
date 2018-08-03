@@ -119,4 +119,4 @@ awk '
 -e "s/(%\([^)]+\).)+/ /g # Python 3-style %(named)s variables" \
 -e "s/(\{[^}]+)}+/ /g # {named} variables" \
 -e 's/[_&~]//g # ~Common _accelerator &keys' |
-hunspell -d "$LOCALE" -l | sort -u | pr -3at
+hunspell -d "$LOCALE" -l | sort -u | column
